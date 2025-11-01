@@ -27,7 +27,6 @@
 
 ### 📂 Semester 1
 - [Advanced Programming Methods (MAP)](Year_2/Semester_1/Advanced%20Programming%20Methods)
-  - [Assignment_1](Year_2/Semester_1/Advanced%20Programming%20Methods/Assignment_1)
 - [Computer Networks](Year_2/Semester_1/Computer_Networks)
 - [Databases](Year_2/Semester_1/Databases)
 - [Functional and Logical Programming in Lisp and Prolog](Year_2/Semester_1/Functional_Logical_Programming)

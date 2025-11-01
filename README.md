@@ -4,7 +4,7 @@
 
 ---
 
-##                       Year 1
+## ----------> Year 1
 
 ### 📂 Semester 1
 - [Linear Algebra](Year_1/Semester_1/Linear_Algebra)
@@ -23,7 +23,7 @@
 
 ---
 
-## Year 2
+## ----------> Year 2
 
 ### 📂 Semester 1
 - [Advanced Programming Methods (MAP)](Year_2/Semester_1/Advanced%20Programming%20Methods)

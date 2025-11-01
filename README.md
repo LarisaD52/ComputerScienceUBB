@@ -4,7 +4,7 @@
 
 ##Year 1
 
-## 1️⃣ Semester 1
+### 1️⃣ Semester 1
 - [Programming Fundamentals](Year_1/Semester_1/Programming_Fundamentals)
 - [Computational Logic](Year_1/Semester_1/Computational_Logic)
 - [Computer Systems Architecture](Year_1/Semester_1/Computer_Systems_Architecture)
@@ -15,7 +15,7 @@
 
 ---
 
-## 2️⃣ Semester 2
+### 2️⃣ Semester 2
 - [Data Structures & Algorithms](Year_1/Semester_2/Data_Structures_Algorithms)
 - [Graph Theory](Year_1/Semester_2/Graph_Theory)
 - [Object-Oriented Programming](Year_1/Semester_2/Object_Oriented_Programming)
@@ -29,7 +29,7 @@
 
 ##Year 2
 
-## 3️⃣ Semester 1
+### 3️⃣ Semester 1
 - [Databases](Year_2/Semester_1/Databases)
 - [Computer Networks](Year_2/Semester_1/Computer_Networks)
 - [Advanced Programming Methods](Year_2/Semester_1/Advanced%20Programming%20Methods)

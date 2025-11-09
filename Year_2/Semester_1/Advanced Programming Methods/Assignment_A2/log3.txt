@@ -1,0 +1,88 @@
+
+--- PROGRAM STATE ---
+Execution Stack: [(bool a; (int v; (a = ConstantExpression[value=true]; ((IF(VariableExpression[variableName=a]) THEN(v = ConstantExpression[value=2]) ELSE(v = ConstantExpression[value=3])); print(VariableExpression[variableName=v])))))]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(int v; (a = ConstantExpression[value=true]; ((IF(VariableExpression[variableName=a]) THEN(v = ConstantExpression[value=2]) ELSE(v = ConstantExpression[value=3])); print(VariableExpression[variableName=v])))), bool a]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(int v; (a = ConstantExpression[value=true]; ((IF(VariableExpression[variableName=a]) THEN(v = ConstantExpression[value=2]) ELSE(v = ConstantExpression[value=3])); print(VariableExpression[variableName=v]))))]
+Symbol Table: {a=false}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(a = ConstantExpression[value=true]; ((IF(VariableExpression[variableName=a]) THEN(v = ConstantExpression[value=2]) ELSE(v = ConstantExpression[value=3])); print(VariableExpression[variableName=v]))), int v]
+Symbol Table: {a=false}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(a = ConstantExpression[value=true]; ((IF(VariableExpression[variableName=a]) THEN(v = ConstantExpression[value=2]) ELSE(v = ConstantExpression[value=3])); print(VariableExpression[variableName=v])))]
+Symbol Table: {a=false, v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [((IF(VariableExpression[variableName=a]) THEN(v = ConstantExpression[value=2]) ELSE(v = ConstantExpression[value=3])); print(VariableExpression[variableName=v])), a = ConstantExpression[value=true]]
+Symbol Table: {a=false, v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [((IF(VariableExpression[variableName=a]) THEN(v = ConstantExpression[value=2]) ELSE(v = ConstantExpression[value=3])); print(VariableExpression[variableName=v]))]
+Symbol Table: {a=true, v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=v]), (IF(VariableExpression[variableName=a]) THEN(v = ConstantExpression[value=2]) ELSE(v = ConstantExpression[value=3]))]
+Symbol Table: {a=true, v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=v]), v = ConstantExpression[value=2]]
+Symbol Table: {a=true, v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=v])]
+Symbol Table: {a=true, v=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: []
+Symbol Table: {a=true, v=2}
+Output: [2]
+FileTable: []
+----------------------
+

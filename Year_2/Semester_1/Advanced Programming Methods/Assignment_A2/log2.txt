@@ -1,0 +1,160 @@
+
+--- PROGRAM STATE ---
+Execution Stack: [(int a; (int b; (a = BinaryOperatorExpression[operator=+, left=ConstantExpression[value=2], right=BinaryOperatorExpression[operator=*, left=ConstantExpression[value=3], right=ConstantExpression[value=5]]]; (b = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=a], right=ConstantExpression[value=1]]; print(VariableExpression[variableName=b])))))]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(int b; (a = BinaryOperatorExpression[operator=+, left=ConstantExpression[value=2], right=BinaryOperatorExpression[operator=*, left=ConstantExpression[value=3], right=ConstantExpression[value=5]]]; (b = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=a], right=ConstantExpression[value=1]]; print(VariableExpression[variableName=b])))), int a]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(int b; (a = BinaryOperatorExpression[operator=+, left=ConstantExpression[value=2], right=BinaryOperatorExpression[operator=*, left=ConstantExpression[value=3], right=ConstantExpression[value=5]]]; (b = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=a], right=ConstantExpression[value=1]]; print(VariableExpression[variableName=b]))))]
+Symbol Table: {a=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(a = BinaryOperatorExpression[operator=+, left=ConstantExpression[value=2], right=BinaryOperatorExpression[operator=*, left=ConstantExpression[value=3], right=ConstantExpression[value=5]]]; (b = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=a], right=ConstantExpression[value=1]]; print(VariableExpression[variableName=b]))), int b]
+Symbol Table: {a=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(a = BinaryOperatorExpression[operator=+, left=ConstantExpression[value=2], right=BinaryOperatorExpression[operator=*, left=ConstantExpression[value=3], right=ConstantExpression[value=5]]]; (b = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=a], right=ConstantExpression[value=1]]; print(VariableExpression[variableName=b])))]
+Symbol Table: {a=0, b=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(b = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=a], right=ConstantExpression[value=1]]; print(VariableExpression[variableName=b])), a = BinaryOperatorExpression[operator=+, left=ConstantExpression[value=2], right=BinaryOperatorExpression[operator=*, left=ConstantExpression[value=3], right=ConstantExpression[value=5]]]]
+Symbol Table: {a=0, b=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(b = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=a], right=ConstantExpression[value=1]]; print(VariableExpression[variableName=b]))]
+Symbol Table: {a=17, b=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=b]), b = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=a], right=ConstantExpression[value=1]]]
+Symbol Table: {a=17, b=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=b])]
+Symbol Table: {a=17, b=18}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: []
+Symbol Table: {a=17, b=18}
+Output: [18]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(int a; (int b; (a = BinaryOperatorExpression[operator=+, left=ConstantExpression[value=2], right=BinaryOperatorExpression[operator=*, left=ConstantExpression[value=3], right=ConstantExpression[value=5]]]; (b = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=a], right=ConstantExpression[value=1]]; print(VariableExpression[variableName=b])))))]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(int b; (a = BinaryOperatorExpression[operator=+, left=ConstantExpression[value=2], right=BinaryOperatorExpression[operator=*, left=ConstantExpression[value=3], right=ConstantExpression[value=5]]]; (b = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=a], right=ConstantExpression[value=1]]; print(VariableExpression[variableName=b])))), int a]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(int b; (a = BinaryOperatorExpression[operator=+, left=ConstantExpression[value=2], right=BinaryOperatorExpression[operator=*, left=ConstantExpression[value=3], right=ConstantExpression[value=5]]]; (b = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=a], right=ConstantExpression[value=1]]; print(VariableExpression[variableName=b]))))]
+Symbol Table: {a=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(a = BinaryOperatorExpression[operator=+, left=ConstantExpression[value=2], right=BinaryOperatorExpression[operator=*, left=ConstantExpression[value=3], right=ConstantExpression[value=5]]]; (b = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=a], right=ConstantExpression[value=1]]; print(VariableExpression[variableName=b]))), int b]
+Symbol Table: {a=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(a = BinaryOperatorExpression[operator=+, left=ConstantExpression[value=2], right=BinaryOperatorExpression[operator=*, left=ConstantExpression[value=3], right=ConstantExpression[value=5]]]; (b = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=a], right=ConstantExpression[value=1]]; print(VariableExpression[variableName=b])))]
+Symbol Table: {a=0, b=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(b = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=a], right=ConstantExpression[value=1]]; print(VariableExpression[variableName=b])), a = BinaryOperatorExpression[operator=+, left=ConstantExpression[value=2], right=BinaryOperatorExpression[operator=*, left=ConstantExpression[value=3], right=ConstantExpression[value=5]]]]
+Symbol Table: {a=0, b=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(b = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=a], right=ConstantExpression[value=1]]; print(VariableExpression[variableName=b]))]
+Symbol Table: {a=17, b=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=b]), b = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=a], right=ConstantExpression[value=1]]]
+Symbol Table: {a=17, b=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=b])]
+Symbol Table: {a=17, b=18}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: []
+Symbol Table: {a=17, b=18}
+Output: [18]
+FileTable: []
+----------------------
+

@@ -1,0 +1,352 @@
+
+--- PROGRAM STATE ---
+Execution Stack: [(int v; (v = ConstantExpression[value=2]; print(VariableExpression[variableName=v])))]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(v = ConstantExpression[value=2]; print(VariableExpression[variableName=v])), int v]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(v = ConstantExpression[value=2]; print(VariableExpression[variableName=v]))]
+Symbol Table: {v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=v]), v = ConstantExpression[value=2]]
+Symbol Table: {v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=v])]
+Symbol Table: {v=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: []
+Symbol Table: {v=2}
+Output: [2]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(int v; (v = ConstantExpression[value=2]; print(VariableExpression[variableName=v])))]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(v = ConstantExpression[value=2]; print(VariableExpression[variableName=v])), int v]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(v = ConstantExpression[value=2]; print(VariableExpression[variableName=v]))]
+Symbol Table: {v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=v]), v = ConstantExpression[value=2]]
+Symbol Table: {v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=v])]
+Symbol Table: {v=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: []
+Symbol Table: {v=2}
+Output: [2]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(int v; (v = ConstantExpression[value=2]; print(VariableExpression[variableName=v])))]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(v = ConstantExpression[value=2]; print(VariableExpression[variableName=v])), int v]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(v = ConstantExpression[value=2]; print(VariableExpression[variableName=v]))]
+Symbol Table: {v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=v]), v = ConstantExpression[value=2]]
+Symbol Table: {v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=v])]
+Symbol Table: {v=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: []
+Symbol Table: {v=2}
+Output: [2]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(int v; (v = ConstantExpression[value=2]; print(VariableExpression[variableName=v])))]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(v = ConstantExpression[value=2]; print(VariableExpression[variableName=v])), int v]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(v = ConstantExpression[value=2]; print(VariableExpression[variableName=v]))]
+Symbol Table: {v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=v]), v = ConstantExpression[value=2]]
+Symbol Table: {v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=v])]
+Symbol Table: {v=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: []
+Symbol Table: {v=2}
+Output: [2]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(int v; (v = ConstantExpression[value=2]; print(VariableExpression[variableName=v])))]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(v = ConstantExpression[value=2]; print(VariableExpression[variableName=v])), int v]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(v = ConstantExpression[value=2]; print(VariableExpression[variableName=v]))]
+Symbol Table: {v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=v]), v = ConstantExpression[value=2]]
+Symbol Table: {v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=v])]
+Symbol Table: {v=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: []
+Symbol Table: {v=2}
+Output: [2]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(int v; (v = ConstantExpression[value=2]; print(VariableExpression[variableName=v])))]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(v = ConstantExpression[value=2]; print(VariableExpression[variableName=v])), int v]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(v = ConstantExpression[value=2]; print(VariableExpression[variableName=v]))]
+Symbol Table: {v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=v]), v = ConstantExpression[value=2]]
+Symbol Table: {v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=v])]
+Symbol Table: {v=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: []
+Symbol Table: {v=2}
+Output: [2]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: []
+Symbol Table: {v=2}
+Output: [2]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(int v; (v = ConstantExpression[value=2]; print(VariableExpression[variableName=v])))]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(v = ConstantExpression[value=2]; print(VariableExpression[variableName=v])), int v]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(v = ConstantExpression[value=2]; print(VariableExpression[variableName=v]))]
+Symbol Table: {v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=v]), v = ConstantExpression[value=2]]
+Symbol Table: {v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=v])]
+Symbol Table: {v=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: []
+Symbol Table: {v=2}
+Output: [2]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: []
+Symbol Table: {v=2}
+Output: [2]
+FileTable: []
+----------------------
+

@@ -1,0 +1,176 @@
+
+--- PROGRAM STATE ---
+Execution Stack: [(int a; (int v; (a = ConstantExpression[value=5]; ((IF(VariableExpression[variableName=a] < ConstantExpression[value=10]) THEN(v = ConstantExpression[value=2]) ELSE(v = ConstantExpression[value=3])); print(VariableExpression[variableName=v])))))]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(int v; (a = ConstantExpression[value=5]; ((IF(VariableExpression[variableName=a] < ConstantExpression[value=10]) THEN(v = ConstantExpression[value=2]) ELSE(v = ConstantExpression[value=3])); print(VariableExpression[variableName=v])))), int a]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(int v; (a = ConstantExpression[value=5]; ((IF(VariableExpression[variableName=a] < ConstantExpression[value=10]) THEN(v = ConstantExpression[value=2]) ELSE(v = ConstantExpression[value=3])); print(VariableExpression[variableName=v]))))]
+Symbol Table: {a=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(a = ConstantExpression[value=5]; ((IF(VariableExpression[variableName=a] < ConstantExpression[value=10]) THEN(v = ConstantExpression[value=2]) ELSE(v = ConstantExpression[value=3])); print(VariableExpression[variableName=v]))), int v]
+Symbol Table: {a=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(a = ConstantExpression[value=5]; ((IF(VariableExpression[variableName=a] < ConstantExpression[value=10]) THEN(v = ConstantExpression[value=2]) ELSE(v = ConstantExpression[value=3])); print(VariableExpression[variableName=v])))]
+Symbol Table: {a=0, v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [((IF(VariableExpression[variableName=a] < ConstantExpression[value=10]) THEN(v = ConstantExpression[value=2]) ELSE(v = ConstantExpression[value=3])); print(VariableExpression[variableName=v])), a = ConstantExpression[value=5]]
+Symbol Table: {a=0, v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [((IF(VariableExpression[variableName=a] < ConstantExpression[value=10]) THEN(v = ConstantExpression[value=2]) ELSE(v = ConstantExpression[value=3])); print(VariableExpression[variableName=v]))]
+Symbol Table: {a=5, v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=v]), (IF(VariableExpression[variableName=a] < ConstantExpression[value=10]) THEN(v = ConstantExpression[value=2]) ELSE(v = ConstantExpression[value=3]))]
+Symbol Table: {a=5, v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=v]), v = ConstantExpression[value=2]]
+Symbol Table: {a=5, v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=v])]
+Symbol Table: {a=5, v=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: []
+Symbol Table: {a=5, v=2}
+Output: [2]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(int a; (int v; (a = ConstantExpression[value=12]; ((IF(VariableExpression[variableName=a] < ConstantExpression[value=10]) THEN(v = ConstantExpression[value=2]) ELSE(v = ConstantExpression[value=3])); print(VariableExpression[variableName=v])))))]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(int v; (a = ConstantExpression[value=12]; ((IF(VariableExpression[variableName=a] < ConstantExpression[value=10]) THEN(v = ConstantExpression[value=2]) ELSE(v = ConstantExpression[value=3])); print(VariableExpression[variableName=v])))), int a]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(int v; (a = ConstantExpression[value=12]; ((IF(VariableExpression[variableName=a] < ConstantExpression[value=10]) THEN(v = ConstantExpression[value=2]) ELSE(v = ConstantExpression[value=3])); print(VariableExpression[variableName=v]))))]
+Symbol Table: {a=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(a = ConstantExpression[value=12]; ((IF(VariableExpression[variableName=a] < ConstantExpression[value=10]) THEN(v = ConstantExpression[value=2]) ELSE(v = ConstantExpression[value=3])); print(VariableExpression[variableName=v]))), int v]
+Symbol Table: {a=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(a = ConstantExpression[value=12]; ((IF(VariableExpression[variableName=a] < ConstantExpression[value=10]) THEN(v = ConstantExpression[value=2]) ELSE(v = ConstantExpression[value=3])); print(VariableExpression[variableName=v])))]
+Symbol Table: {a=0, v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [((IF(VariableExpression[variableName=a] < ConstantExpression[value=10]) THEN(v = ConstantExpression[value=2]) ELSE(v = ConstantExpression[value=3])); print(VariableExpression[variableName=v])), a = ConstantExpression[value=12]]
+Symbol Table: {a=0, v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [((IF(VariableExpression[variableName=a] < ConstantExpression[value=10]) THEN(v = ConstantExpression[value=2]) ELSE(v = ConstantExpression[value=3])); print(VariableExpression[variableName=v]))]
+Symbol Table: {a=12, v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=v]), (IF(VariableExpression[variableName=a] < ConstantExpression[value=10]) THEN(v = ConstantExpression[value=2]) ELSE(v = ConstantExpression[value=3]))]
+Symbol Table: {a=12, v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=v]), v = ConstantExpression[value=3]]
+Symbol Table: {a=12, v=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=v])]
+Symbol Table: {a=12, v=3}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: []
+Symbol Table: {a=12, v=3}
+Output: [3]
+FileTable: []
+----------------------
+

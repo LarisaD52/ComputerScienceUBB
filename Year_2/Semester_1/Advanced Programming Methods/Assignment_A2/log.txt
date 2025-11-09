@@ -1,0 +1,288 @@
+
+--- PROGRAM STATE ---
+Execution Stack: [(string varf; (varf = ConstantExpression[value=src/test/test.in]; (openRFile(VariableExpression[variableName=varf]); (int varc; (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf])))))))))]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(varf = ConstantExpression[value=src/test/test.in]; (openRFile(VariableExpression[variableName=varf]); (int varc; (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf])))))))), string varf]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(varf = ConstantExpression[value=src/test/test.in]; (openRFile(VariableExpression[variableName=varf]); (int varc; (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf]))))))))]
+Symbol Table: {varf=}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(openRFile(VariableExpression[variableName=varf]); (int varc; (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf]))))))), varf = ConstantExpression[value=src/test/test.in]]
+Symbol Table: {varf=}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(openRFile(VariableExpression[variableName=varf]); (int varc; (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf])))))))]
+Symbol Table: {varf=src/test/test.in}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(int varc; (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf])))))), openRFile(VariableExpression[variableName=varf])]
+Symbol Table: {varf=src/test/test.in}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(int varc; (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf]))))))]
+Symbol Table: {varf=src/test/test.in}
+Output: []
+FileTable: [src/test/test.in]
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf]))))), int varc]
+Symbol Table: {varf=src/test/test.in}
+Output: []
+FileTable: [src/test/test.in]
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf])))))]
+Symbol Table: {varf=src/test/test.in, varc=0}
+Output: []
+FileTable: [src/test/test.in]
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(print(VariableExpression[variableName=varc]); (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf])))), readFile(VariableExpression[variableName=varf], varc)]
+Symbol Table: {varf=src/test/test.in, varc=0}
+Output: []
+FileTable: [src/test/test.in]
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(print(VariableExpression[variableName=varc]); (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf]))))]
+Symbol Table: {varf=src/test/test.in, varc=15}
+Output: []
+FileTable: [src/test/test.in]
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf]))), print(VariableExpression[variableName=varc])]
+Symbol Table: {varf=src/test/test.in, varc=15}
+Output: []
+FileTable: [src/test/test.in]
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf])))]
+Symbol Table: {varf=src/test/test.in, varc=15}
+Output: [15]
+FileTable: [src/test/test.in]
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf])), readFile(VariableExpression[variableName=varf], varc)]
+Symbol Table: {varf=src/test/test.in, varc=15}
+Output: [15]
+FileTable: [src/test/test.in]
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf]))]
+Symbol Table: {varf=src/test/test.in, varc=50}
+Output: [15]
+FileTable: [src/test/test.in]
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [closeRFile(VariableExpression[variableName=varf]), print(VariableExpression[variableName=varc])]
+Symbol Table: {varf=src/test/test.in, varc=50}
+Output: [15]
+FileTable: [src/test/test.in]
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [closeRFile(VariableExpression[variableName=varf])]
+Symbol Table: {varf=src/test/test.in, varc=50}
+Output: [15, 50]
+FileTable: [src/test/test.in]
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: []
+Symbol Table: {varf=src/test/test.in, varc=50}
+Output: [15, 50]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(string varf; (varf = ConstantExpression[value=src/test/test.in]; (openRFile(VariableExpression[variableName=varf]); (int varc; (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf])))))))))]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(varf = ConstantExpression[value=src/test/test.in]; (openRFile(VariableExpression[variableName=varf]); (int varc; (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf])))))))), string varf]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(varf = ConstantExpression[value=src/test/test.in]; (openRFile(VariableExpression[variableName=varf]); (int varc; (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf]))))))))]
+Symbol Table: {varf=}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(openRFile(VariableExpression[variableName=varf]); (int varc; (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf]))))))), varf = ConstantExpression[value=src/test/test.in]]
+Symbol Table: {varf=}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(openRFile(VariableExpression[variableName=varf]); (int varc; (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf])))))))]
+Symbol Table: {varf=src/test/test.in}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(int varc; (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf])))))), openRFile(VariableExpression[variableName=varf])]
+Symbol Table: {varf=src/test/test.in}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(int varc; (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf]))))))]
+Symbol Table: {varf=src/test/test.in}
+Output: []
+FileTable: [src/test/test.in]
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf]))))), int varc]
+Symbol Table: {varf=src/test/test.in}
+Output: []
+FileTable: [src/test/test.in]
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf])))))]
+Symbol Table: {varf=src/test/test.in, varc=0}
+Output: []
+FileTable: [src/test/test.in]
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(print(VariableExpression[variableName=varc]); (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf])))), readFile(VariableExpression[variableName=varf], varc)]
+Symbol Table: {varf=src/test/test.in, varc=0}
+Output: []
+FileTable: [src/test/test.in]
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(print(VariableExpression[variableName=varc]); (readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf]))))]
+Symbol Table: {varf=src/test/test.in, varc=15}
+Output: []
+FileTable: [src/test/test.in]
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf]))), print(VariableExpression[variableName=varc])]
+Symbol Table: {varf=src/test/test.in, varc=15}
+Output: []
+FileTable: [src/test/test.in]
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(readFile(VariableExpression[variableName=varf], varc); (print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf])))]
+Symbol Table: {varf=src/test/test.in, varc=15}
+Output: [15]
+FileTable: [src/test/test.in]
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf])), readFile(VariableExpression[variableName=varf], varc)]
+Symbol Table: {varf=src/test/test.in, varc=15}
+Output: [15]
+FileTable: [src/test/test.in]
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(print(VariableExpression[variableName=varc]); closeRFile(VariableExpression[variableName=varf]))]
+Symbol Table: {varf=src/test/test.in, varc=50}
+Output: [15]
+FileTable: [src/test/test.in]
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [closeRFile(VariableExpression[variableName=varf]), print(VariableExpression[variableName=varc])]
+Symbol Table: {varf=src/test/test.in, varc=50}
+Output: [15]
+FileTable: [src/test/test.in]
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [closeRFile(VariableExpression[variableName=varf])]
+Symbol Table: {varf=src/test/test.in, varc=50}
+Output: [15, 50]
+FileTable: [src/test/test.in]
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: []
+Symbol Table: {varf=src/test/test.in, varc=50}
+Output: [15, 50]
+FileTable: []
+----------------------
+

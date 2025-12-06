@@ -1,0 +1,6 @@
+# ninja log v6
+5	610	1742978991120702051	CMakeFiles/H1matrix.dir/ShortTest.cpp.o	fee4e544dd4ef4f9
+13	741	1742978067493751382	CMakeFiles/H1matrix.dir/ExtendedTest.cpp.o	6f4668cbf6f7cbd7
+12	567	1742978067492922516	CMakeFiles/H1matrix.dir/Matrix.cpp.o	e920787746f8963d
+5	622	1742978882177543906	CMakeFiles/H1matrix.dir/App.cpp.o	ef5e80228716b985
+610	704	1742978991725794360	H1matrix	f68762a9afe866e1

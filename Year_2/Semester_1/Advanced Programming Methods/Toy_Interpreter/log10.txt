@@ -1,0 +1,198 @@
+
+--- PROGRAM STATE 9---
+Execution Stack: [(Ref(int) v; (new(v, ConstantExpression[value=20]); (Ref(Ref(int)) a; (new(a, VariableExpression[variableName=v]); (new(v, ConstantExpression[value=30]); print(rH(rH(VariableExpression[variableName=a]))))))))]
+Symbol Table: {}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 9---
+Execution Stack: [(new(v, ConstantExpression[value=20]); (Ref(Ref(int)) a; (new(a, VariableExpression[variableName=v]); (new(v, ConstantExpression[value=30]); print(rH(rH(VariableExpression[variableName=a]))))))), Ref(int) v]
+Symbol Table: {}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 9---
+Execution Stack: [(new(v, ConstantExpression[value=20]); (Ref(Ref(int)) a; (new(a, VariableExpression[variableName=v]); (new(v, ConstantExpression[value=30]); print(rH(rH(VariableExpression[variableName=a]))))))), Ref(int) v]
+Symbol Table: {}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 9---
+Execution Stack: [(new(v, ConstantExpression[value=20]); (Ref(Ref(int)) a; (new(a, VariableExpression[variableName=v]); (new(v, ConstantExpression[value=30]); print(rH(rH(VariableExpression[variableName=a])))))))]
+Symbol Table: {v=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 9---
+Execution Stack: [(new(v, ConstantExpression[value=20]); (Ref(Ref(int)) a; (new(a, VariableExpression[variableName=v]); (new(v, ConstantExpression[value=30]); print(rH(rH(VariableExpression[variableName=a])))))))]
+Symbol Table: {v=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 9---
+Execution Stack: [(Ref(Ref(int)) a; (new(a, VariableExpression[variableName=v]); (new(v, ConstantExpression[value=30]); print(rH(rH(VariableExpression[variableName=a])))))), new(v, ConstantExpression[value=20])]
+Symbol Table: {v=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 9---
+Execution Stack: [(Ref(Ref(int)) a; (new(a, VariableExpression[variableName=v]); (new(v, ConstantExpression[value=30]); print(rH(rH(VariableExpression[variableName=a])))))), new(v, ConstantExpression[value=20])]
+Symbol Table: {v=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 9---
+Execution Stack: [(Ref(Ref(int)) a; (new(a, VariableExpression[variableName=v]); (new(v, ConstantExpression[value=30]); print(rH(rH(VariableExpression[variableName=a]))))))]
+Symbol Table: {v=(1, int)}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 9---
+Execution Stack: [(Ref(Ref(int)) a; (new(a, VariableExpression[variableName=v]); (new(v, ConstantExpression[value=30]); print(rH(rH(VariableExpression[variableName=a]))))))]
+Symbol Table: {v=(1, int)}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 9---
+Execution Stack: [(new(a, VariableExpression[variableName=v]); (new(v, ConstantExpression[value=30]); print(rH(rH(VariableExpression[variableName=a]))))), Ref(Ref(int)) a]
+Symbol Table: {v=(1, int)}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 9---
+Execution Stack: [(new(a, VariableExpression[variableName=v]); (new(v, ConstantExpression[value=30]); print(rH(rH(VariableExpression[variableName=a]))))), Ref(Ref(int)) a]
+Symbol Table: {v=(1, int)}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 9---
+Execution Stack: [(new(a, VariableExpression[variableName=v]); (new(v, ConstantExpression[value=30]); print(rH(rH(VariableExpression[variableName=a])))))]
+Symbol Table: {a=(0, Ref(int)), v=(1, int)}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 9---
+Execution Stack: [(new(a, VariableExpression[variableName=v]); (new(v, ConstantExpression[value=30]); print(rH(rH(VariableExpression[variableName=a])))))]
+Symbol Table: {a=(0, Ref(int)), v=(1, int)}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 9---
+Execution Stack: [(new(v, ConstantExpression[value=30]); print(rH(rH(VariableExpression[variableName=a])))), new(a, VariableExpression[variableName=v])]
+Symbol Table: {a=(0, Ref(int)), v=(1, int)}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 9---
+Execution Stack: [(new(v, ConstantExpression[value=30]); print(rH(rH(VariableExpression[variableName=a])))), new(a, VariableExpression[variableName=v])]
+Symbol Table: {a=(0, Ref(int)), v=(1, int)}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 9---
+Execution Stack: [(new(v, ConstantExpression[value=30]); print(rH(rH(VariableExpression[variableName=a]))))]
+Symbol Table: {a=(2, Ref(int)), v=(1, int)}
+Heap: {1=20, 2=(1, int)}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 9---
+Execution Stack: [(new(v, ConstantExpression[value=30]); print(rH(rH(VariableExpression[variableName=a]))))]
+Symbol Table: {a=(2, Ref(int)), v=(1, int)}
+Heap: {1=20, 2=(1, int)}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 9---
+Execution Stack: [print(rH(rH(VariableExpression[variableName=a]))), new(v, ConstantExpression[value=30])]
+Symbol Table: {a=(2, Ref(int)), v=(1, int)}
+Heap: {1=20, 2=(1, int)}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 9---
+Execution Stack: [print(rH(rH(VariableExpression[variableName=a]))), new(v, ConstantExpression[value=30])]
+Symbol Table: {a=(2, Ref(int)), v=(1, int)}
+Heap: {1=20, 2=(1, int)}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 9---
+Execution Stack: [print(rH(rH(VariableExpression[variableName=a])))]
+Symbol Table: {a=(2, Ref(int)), v=(3, int)}
+Heap: {1=20, 2=(1, int), 3=30}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 9---
+Execution Stack: [print(rH(rH(VariableExpression[variableName=a])))]
+Symbol Table: {a=(2, Ref(int)), v=(3, int)}
+Heap: {2=(1, int), 3=30}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 9---
+Execution Stack: []
+Symbol Table: {a=(2, Ref(int)), v=(3, int)}
+Heap: {2=(1, int), 3=30}
+Output: []
+FileTable: []
+----------------------
+

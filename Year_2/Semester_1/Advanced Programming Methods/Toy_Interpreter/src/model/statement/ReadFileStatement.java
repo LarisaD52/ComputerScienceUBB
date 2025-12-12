@@ -3,9 +3,12 @@ package model.statement;
 import exceptions.MyException;
 import model.expression.IExpression;
 import model.state.IFileTable;
+import model.state.IHeap;
 import model.state.ISymbolTable;
 import model.state.ProgramState;
-import model.type.Type;
+import model.type.IType;
+import model.type.IntegerType;
+import model.type.StringType;
 import model.value.IValue;
 import model.value.IntegerValue;
 import model.value.StringValue;
@@ -34,30 +37,28 @@ public class ReadFileStatement implements IStatement {
     public ProgramState execute(ProgramState state) throws MyException {
         ISymbolTable<String, IValue> symTable = state.getSymbolTable();
         IFileTable<String, BufferedReader> fileTable = state.getFileTable();
+        IHeap heap = state.getHeap();
 
-        // 1. Verificăm variabila
         if (!symTable.isDefined(varName)) {
             throw new MyException("ReadFile: Variable '" + varName + "' not declared.");
         }
         IValue varValue = symTable.getValue(varName);
-        if (!(varValue.getType() instanceof Type)) {
+        if (!(varValue.getType() instanceof IType)) {
             throw new MyException("ReadFile: Variable '" + varName + "' is not of type int.");
         }
 
-        // 2. Evaluăm expresia pentru numele fișierului
-        IValue fileExpVal = expression.evaluate(symTable);
+        IValue fileExpVal = expression.evaluate(symTable, heap);
         if (!(fileExpVal instanceof StringValue)) {
             throw new MyException("ReadFile: Expression does not evaluate to a string.");
         }
         String fileName = ((StringValue) fileExpVal).getVal();
 
-        // 3. Obținem BufferedReader din FileTable
         if (!fileTable.isOpen(fileName)) {
             throw new MyException("ReadFile: File '" + fileName + "' is not opened.");
         }
         BufferedReader br = fileTable.get(fileName);
 
-        // 4. Citim linia și transformăm în IntegerValue
+
         int intVal;
         try {
             String line = br.readLine();
@@ -72,10 +73,34 @@ public class ReadFileStatement implements IStatement {
             throw new MyException("ReadFile: File '" + fileName + "' contains invalid integer.");
         }
 
-        // 5. Actualizăm SymTable
+
         symTable.update(varName, new IntegerValue(intVal));
 
-        return state;
+        return null;
+    }
+
+
+
+
+    @Override
+    public ISymbolTable<String, IType> typecheck(ISymbolTable<String, IType> typeEnv) throws MyException {
+        // 1. Expresia trebuie să se evalueze la StringType (numele fișierului)
+        IType typexp = expression.typecheck(typeEnv);
+        if (!typexp.equals(new StringType())) {
+            throw new MyException("ReadFile: Expression must evaluate to StringType.");
+        }
+
+        // 2. Variabila trebuie să fie IntegerType
+        if (!typeEnv.isDefined(varName)) {
+            throw new MyException("ReadFile: Variable " + varName + " is not defined.");
+        }
+        IType varType = typeEnv.getValue(varName);
+        if (!varType.equals(new IntegerType())) {
+            throw new MyException("ReadFile: Variable " + varName + " must be IntegerType.");
+        }
+
+        // 3. Returnează mediul neschimbat
+        return typeEnv;
     }
 
     @Override

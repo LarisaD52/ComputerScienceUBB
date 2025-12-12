@@ -1,4 +1,4 @@
-package view;
+package view.Command;
 
 public abstract class Command {
     private String key;

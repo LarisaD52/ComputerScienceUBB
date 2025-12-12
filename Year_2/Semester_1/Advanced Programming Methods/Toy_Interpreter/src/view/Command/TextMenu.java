@@ -1,4 +1,4 @@
-package view;
+package view.Command;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -34,18 +34,18 @@ public class TextMenu {
 
         while (!finished) {
             printMenu();
-            System.out.print("Alege programul: ");
+            System.out.print("Input the option:  ");
 
             String key = scanner.nextLine().trim();
 
             Command com = commands.get(key);
 
             if (com == null) {
-                System.out.println("Optiune invalida! Incearca din nou.");
+                System.out.println("Invalid Option");
             } else {
                 if (key.equals("0")) {
                     finished = true;
-                    System.out.println("Iesire... Programul s-a încheiat.");
+                    System.out.println("Iesire...");
                 } else {
                     com.execute();
                 }

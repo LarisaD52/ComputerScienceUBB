@@ -1,4 +1,4 @@
-package view;
+package view.Command;
 
 import exceptions.ExitException;
 

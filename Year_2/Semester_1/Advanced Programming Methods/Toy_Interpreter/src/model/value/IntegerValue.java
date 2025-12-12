@@ -1,19 +1,19 @@
 package model.value;
 
-import model.type.Type;
+import model.type.IType;
+import model.type.IntegerType;
 
-public record IntegerValue(int value) implements IValue{
+public record IntegerValue(int value) implements IValue {
 
     @Override
-    public Type getType() {
-        return Type.INTEGER;
+    public IType getType() {
+        return new IntegerType();
     }
 
     @Override
     public boolean equals(Object another) {
         if (this == another) return true;
-        if (!(another instanceof IntegerValue)) return false;
-        IntegerValue other = (IntegerValue) another;
+        if (!(another instanceof IntegerValue other)) return false;
         return this.value == other.value;
     }
 

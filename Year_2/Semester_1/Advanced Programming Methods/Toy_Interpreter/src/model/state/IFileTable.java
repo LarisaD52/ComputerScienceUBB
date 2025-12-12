@@ -12,4 +12,8 @@ public interface IFileTable<K, V> {
 
 
   boolean isOpen(String key);
+
+    String[] getAllKeys();
+
+    void clear();
 }

@@ -1,9 +1,9 @@
 package model.value;
 
-import model.type.Type;
+import model.type.IType;
 
 public interface IValue {
-    Type getType();
+    IType getType();
 
     boolean equals(Object another);
 

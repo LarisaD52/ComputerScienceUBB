@@ -12,21 +12,27 @@ import java.util.List;
 
 public class Repository implements IRepository{
 
-    private final List<ProgramState> programStates;
+    private  List<ProgramState> programStates;
     private final String logFilePath;
 
     public Repository(ProgramState initialProgram, String logFilePath) {
         this.programStates = new ArrayList<>();
         this.programStates.add(initialProgram);
         this.logFilePath= logFilePath;
+
+
+        // !!!!!am aduagat: curatarea fisierului log la initializare
+        try {
+            //deschid fișierul in modul de suprascriere (false) si il inchid imediat
+            PrintWriter logFile = new PrintWriter(new FileWriter(logFilePath, false));
+            logFile.close();
+        } catch (IOException e) {
+            System.err.println("Eroare la curatarea fisierului log: " + logFilePath + ": " + e.getMessage());
+        }
+
+
     }
 
-    @Override
-    public ProgramState getCurrentProgram() {
-        return programStates.get(0);
-    }
-
-    @Override
     public void logPrgStateExec(ProgramState programState) throws InterpreterException, IOException {
         PrintWriter logFile;
         logFile = new PrintWriter(new BufferedWriter(new FileWriter(logFilePath, true)));
@@ -37,6 +43,16 @@ public class Repository implements IRepository{
     @Override
     public String getLogFilePath() {
         return logFilePath;
+    }
+
+
+    public List<ProgramState> getPrgList() {
+        return programStates;
+    }
+
+    @Override
+    public void setPrgList(List<ProgramState> prgList) {
+        this.programStates = prgList;
     }
 
     @Override

@@ -4,9 +4,12 @@ package model.statement;
 import exceptions.MyException;
 import model.expression.IExpression;
 import model.state.IFileTable;
+import model.state.IHeap;
+import model.state.ISymbolTable;
 import model.state.ProgramState;
 
-import model.type.Type;
+import model.type.IType;
+import model.type.StringType;
 import model.value.IValue;
 import model.value.StringValue;
 
@@ -30,23 +33,23 @@ public class CloseRFileStatement implements IStatement{
 
     @Override
     public ProgramState execute(ProgramState state) throws MyException {
-        // 1. Evaluate the expression
-        IValue val = expression.evaluate(state.getSymbolTable());
 
-        // 2. Check if the value is a StringValue
-        if (!(val.getType() instanceof Type)) {
+        IValue val = expression.evaluate(state.getSymbolTable(), state.getHeap());
+
+
+        if (!(val.getType() instanceof IType)) {
             throw new MyException("CloseRFile: Expression does not evaluate to a string.");
         }
 
         String fileName = ((StringValue) val).getVal();
         IFileTable<String, BufferedReader> fileTable = state.getFileTable();
 
-        // 3. Check if file exists in FileTable
+
         if (!fileTable.isOpen(fileName)) {
             throw new MyException("CloseRFile: File '" + fileName + "' is not opened.");
         }
 
-        // 4. Get BufferedReader and close it
+        //get BufferedReader and close it
         BufferedReader br = fileTable.get(fileName);
         try {
             br.close();
@@ -54,10 +57,23 @@ public class CloseRFileStatement implements IStatement{
             throw new MyException("CloseRFile: Error closing file '" + fileName + "'.");
         }
 
-        // 5. Remove entry from FileTable
         fileTable.remove(fileName);
 
-        return state;
+        return null;
+    }
+
+
+
+    @Override
+    public ISymbolTable<String, IType> typecheck(ISymbolTable<String, IType> typeEnv) throws MyException {
+        // 1. Expresia trebuie să se evalueze la StringType (numele fișierului)
+        IType typexp = expression.typecheck(typeEnv);
+        if (!typexp.equals(new StringType())) {
+            throw new MyException("CloseRFile: Expression must evaluate to StringType.");
+        }
+
+        // 2. Returnează mediul neschimbat
+        return typeEnv;
     }
 
     @Override

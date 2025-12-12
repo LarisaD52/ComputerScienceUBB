@@ -13,6 +13,11 @@ public class MapSymbolTable<K,V> implements ISymbolTable<K,V>{
         this.map = new HashMap<>();
     }
 
+    @Override
+    public Map<K, V> getContent() {
+        return map;
+    }
+
 
 
     @Override
@@ -25,6 +30,9 @@ public class MapSymbolTable<K,V> implements ISymbolTable<K,V>{
         map.put(key, value);
     }
 
+    public void add(K key, V value) {
+        this.put(key, value);
+    }
     @Override
     public void update(K key, V value) {
         if (!map.containsKey(key)) {
@@ -37,6 +45,24 @@ public class MapSymbolTable<K,V> implements ISymbolTable<K,V>{
     public V getValue(K key) {
         return map.get(key);
     }
+
+    @Override
+    public boolean containsKey(K varName) {
+        return map.containsKey(varName); // CORECȚIE
+    }
+
+
+
+    @Override
+    public ISymbolTable<K, V> deepCopy() {
+        MapSymbolTable<K, V> newTable = new MapSymbolTable<>();
+        for (Map.Entry<K, V> entry : map.entrySet()) {
+            newTable.put(entry.getKey(), entry.getValue());
+            // V este deja un IValue (care este imutabil), deci poți copia referința
+        }
+        return newTable;
+    }
+
 
 
     @Override

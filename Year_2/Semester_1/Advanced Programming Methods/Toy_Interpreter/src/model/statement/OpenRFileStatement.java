@@ -5,8 +5,10 @@ import exceptions.FileNotFoundException;
 import exceptions.MyException;
 import model.expression.IExpression;
 import model.state.IFileTable;
+import model.state.ISymbolTable;
 import model.state.ProgramState;
-import model.type.Type;
+import model.type.IType;
+import model.type.StringType;
 import model.value.IValue;
 import model.value.StringValue;
 
@@ -29,23 +31,21 @@ public class OpenRFileStatement implements IStatement {
 
     @Override
     public ProgramState execute(ProgramState state) throws MyException {
-        // Evaluăm expresia
-        IValue val = expression.evaluate(state.getSymbolTable());
 
-        // Verificăm dacă tipul este StringType
-        if (!(val.getType() instanceof Type)) {
+        IValue val = expression.evaluate(state.getSymbolTable(), state.getHeap());
+
+        if (!(val.getType() instanceof IType)) {
             throw new MyException("OpenRFile: Expression is not of type string.");
         }
 
         StringValue fileName = (StringValue) val;
         IFileTable<String, BufferedReader> fileTable = state.getFileTable();
 
-        // Verificăm dacă fișierul nu e deja deschis
         if (fileTable.isOpen(fileName.getVal())) {
             throw new FileAlreadyOpenException("OpenRFile: File already opened: " + fileName.getVal());
         }
 
-        // Deschidem fișierul
+        //DESCHIDEM FIS
         try {
             BufferedReader br = new BufferedReader(new FileReader(String.valueOf(fileName.getVal())));
             fileTable.addOpenFile(fileName.getVal(), br);
@@ -53,8 +53,22 @@ public class OpenRFileStatement implements IStatement {
             throw new FileNotFoundException("OpenRFile: Cannot open file: " + fileName.getVal());
         }
 
-        return state;
+        return null;
     }
+
+
+    @Override
+    public ISymbolTable<String, IType> typecheck(ISymbolTable<String, IType> typeEnv) throws MyException {
+        // 1. Expresia trebuie să se evalueze la StringType (numele fișierului)
+        IType typexp = expression.typecheck(typeEnv);
+        if (!typexp.equals(new StringType())) {
+            throw new MyException("OpenRFile: Expression must evaluate to StringType.");
+        }
+
+        // 2. Returnează mediul neschimbat
+        return typeEnv;
+    }
+
 
     @Override
     public String toString() {

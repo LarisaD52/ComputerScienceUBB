@@ -1,59 +1,221 @@
 package controller;
 
-import exceptions.EmptyExecutionStackException;
 import exceptions.InterpreterException;
 import exceptions.MyException;
 import model.state.*;
 import model.statement.IStatement;
+import model.value.IValue;
+import model.value.RefValue;
 import repository.IRepository;
-
 import java.io.IOException;
+import java.util.*;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.stream.Collectors;
 
 
 public class Controller implements IController {
-    IRepository repository;
 
-    public IRepository getRepository() {
-        return repository;
+    private ExecutorService executor;
+    private final IRepository repository;
+    private final boolean useUnsafeGC;
+
+    public Controller(IRepository repo, boolean useUnsafeGC) {
+        this.repository = repo;
+        this.useUnsafeGC = useUnsafeGC;
     }
-
 
     public Controller(IRepository repository) {
-        this.repository = repository;
+        this(repository, false);
     }
 
-    @Override
-    public ProgramState oneStep(ProgramState state) throws MyException {
-        IExecutionStack<IStatement> stack = state.getExecutionStack();
-        if (stack.isEmpty())
-            throw new EmptyExecutionStackException("Program state stack is empty!");
-        IStatement crtStmt = stack.pop();
-        return crtStmt.execute(state);
+    //---------->GC HELPERS
+
+    private List<Integer> getAddrFromSymTable(Collection<IValue> symTableValues) {
+        return symTableValues.stream()
+                .filter(v -> v instanceof RefValue)
+                .map(v -> ((RefValue) v).getAddr())
+                .toList();
     }
+
+    private Map<Integer, IValue> unsafeGarbageCollector(
+            List<Integer> symTableAddr,
+            Map<Integer, IValue> heap) {
+
+        return heap.entrySet().stream()
+                .filter(e -> symTableAddr.contains(e.getKey()))
+                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    }
+
+    private Set<Integer> getReachableAddresses(
+            Set<Integer> roots,
+            Map<Integer, IValue> heap) {
+
+        Set<Integer> reachable = new HashSet<>(roots);
+        Deque<Integer> work = new ArrayDeque<>(roots);
+
+        while (!work.isEmpty()) {
+            int addr = work.pop();
+
+            if (heap.containsKey(addr)) {
+                IValue val = heap.get(addr);
+
+                if (val instanceof RefValue ref) {
+                    int next = ref.getAddr();
+                    if (next != 0 && reachable.add(next)) {
+                        work.push(next);
+                    }
+                }
+            }
+        }
+
+        return reachable;
+    }
+
+    private Map<Integer, IValue> safeGarbageCollector(
+            Set<Integer> reachable,
+            Map<Integer, IValue> heap) {
+
+        return heap.entrySet().stream()
+                .filter(e -> reachable.contains(e.getKey()))
+                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    }
+
+    //---------->REMOVE COMPLETED
+
+    @Override
+    public List<ProgramState> removeCompletedPrg(List<ProgramState> inPrgList) {
+        return inPrgList.stream()
+                .filter(ProgramState::isNotCompleted)
+                .collect(Collectors.toList());
+    }
+
+    //---------->ONE STEP FOR ALL PROGRAMS
+
+    @Override
+    public void oneStepForAllPrg(List<ProgramState> prgList) throws MyException, InterruptedException {
+
+        // Log inainte de executie
+        prgList.forEach(prg -> {
+            try {
+                repository.logPrgStateExec(prg);
+            } catch (Exception ignored) {}
+        });
+
+        //pregatesc lista de callables
+        List<Callable<ProgramState>> callList = prgList.stream()
+                .map((ProgramState p) -> (Callable<ProgramState>) p::oneStep)
+                .collect(Collectors.toList());
+
+        //executam in paralel: poate aparea un nou PrgState datorita fork()
+        List<ProgramState> newPrgList =
+                executor.invokeAll(callList).stream()
+                        .map(future -> {
+                            try {
+                                return future.get();
+                            } catch (Exception e) {
+                                return null;
+                            }
+                        })
+                        .filter(Objects::nonNull)
+                        .collect(Collectors.toList());
+
+        //adaug firele noi
+        prgList.addAll(newPrgList);
+
+        //Log după executie
+        prgList.forEach(prg -> {
+            try {
+                repository.logPrgStateExec(prg);
+            } catch (Exception ignored) {}
+        });
+
+        //actalizez repository
+        repository.setPrgList(prgList);
+    }
+
+    //----------> ALL STEP (MULTITHREADED)
 
     @Override
     public void allStep() throws MyException, InterpreterException, IOException {
-        ProgramState prg = repository.getCurrentProgram();
-        repository. logPrgStateExec(prg);
-        while (!prg.getExecutionStack().isEmpty()){
-            oneStep(prg);
-            repository. logPrgStateExec(prg);
-        }}
+
+        executor = Executors.newFixedThreadPool(2);
+
+        List<ProgramState> prgList = removeCompletedPrg(repository.getPrgList());
+
+        while (!prgList.isEmpty()) {
+
+            //GARBAGE COLLECTOR
+            Map<Integer, IValue> newHeap;
+
+            if (useUnsafeGC) {
+                // UNSAFE mode (only direct references)
+                List<Integer> roots =
+                        prgList.stream()
+                                .flatMap(p ->
+                                        getAddrFromSymTable(
+                                                p.getSymbolTable().getContent().values()
+                                        ).stream())
+                                .toList();
+
+                newHeap = unsafeGarbageCollector(
+                        roots,
+                        prgList.get(0).getHeap().getContent()
+                );
+
+            } else {
+                // SAFE mode (reachable references)
+                List<Integer> roots =
+                        prgList.stream()
+                                .flatMap(p ->
+                                        getAddrFromSymTable(
+                                                p.getSymbolTable().getContent().values()
+                                        ).stream())
+                                .toList();
+
+                Set<Integer> reachable =
+                        getReachableAddresses(
+                                new HashSet<>(roots),
+                                prgList.get(0).getHeap().getContent()
+                        );
+
+                newHeap = safeGarbageCollector(
+                        reachable,
+                        prgList.get(0).getHeap().getContent()
+                );
+            }
+
+            //aplic GC
+            prgList.get(0).getHeap().setContent(newHeap);
+
+            //---------->ONE PARALLEL STEP
+            try {
+                oneStepForAllPrg(prgList);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+
+            //elimin programale terminate
+            prgList = removeCompletedPrg(repository.getPrgList());
+        }
+
+        executor.shutdownNow();
+
+        repository.setPrgList(prgList);
+    }
 
 
+
+    @Override
     public ProgramState copyProgramState(ProgramState original) throws MyException {
-        IStatement originalProgram = original.getOriginalProgram();
-        IStatement copiedProgram = originalProgram.deepCopy(); // folosim deep copy pe statement-ul principal
+        IStatement copied = original.getOriginalProgram().deepCopy();
         return new ProgramState(
                 new StackExecutionStack<>(),
                 new MapSymbolTable<>(),
                 new ListOut<>(),
-                copiedProgram,
-                new MapFileTable());
+                copied,
+                new MapFileTable()
+        );
     }
-
 }
-
-
-
-

@@ -1,6 +1,7 @@
 package model.state;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -34,7 +35,22 @@ public class MapFileTable implements IFileTable<String, BufferedReader> {
     }
 
     @Override
+    public String[] getAllKeys() {
+        return new String[0];
+    }
+
+    @Override
     public String toString() {
         return table.keySet().toString();
+    }
+    public void clear() {
+        for (BufferedReader reader : table.values()) {
+            try {
+                reader.close();
+            } catch (IOException e) {
+                System.out.println("Error closing file: " + e.getMessage());
+            }
+        }
+        table.clear();
     }
 }

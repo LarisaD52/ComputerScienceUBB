@@ -3,14 +3,14 @@ package model.statement;
 import exceptions.MyException;
 import model.state.ISymbolTable;
 import model.state.ProgramState;
-import model.type.Type;
+import model.type.IType;
 import model.value.IValue;
 
 public class VariableDeclarationStatement implements IStatement {
     private final String name;
-    private final Type type;
+    private final IType type;
 
-    public VariableDeclarationStatement(String name, Type type) {
+    public VariableDeclarationStatement(String name, IType type) {
         this.name = name;
         this.type = type;
     }
@@ -27,9 +27,25 @@ public class VariableDeclarationStatement implements IStatement {
         if (symTable.isDefined(name))
             throw new MyException("Variable '" + name + "' already declared.");
 
-        // Each type can define a default value (you can later add a factory for this)
+        // Fiecare tip definește o valoare implicită
         symTable.put(name, type.getDefaultValue());
-        return state;
+        return null;
+    }
+
+
+
+    @Override
+    public ISymbolTable<String, IType> typecheck(ISymbolTable<String, IType> typeEnv) throws MyException {
+        // Verifica daca variabila e deja definita
+        if (typeEnv.isDefined(name)) {
+            throw new MyException("Variable " + name + " is already defined.");
+        }
+
+        // Adauga variabila noua in mediu de tipuri
+        typeEnv.put(name, type);
+
+        // Returneaza mediul de tipuri actualizat
+        return typeEnv;
     }
 
     @Override

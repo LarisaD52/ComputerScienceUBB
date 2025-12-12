@@ -1,19 +1,19 @@
 package model.value;
 
-import model.type.Type;
+import model.type.IType;
+import model.type.BooleanType;
 
 public record BooleanValue(boolean value) implements IValue {
 
-    public Type getType(){
-        return Type.BOOLEAN;
+    @Override
+    public IType getType() {
+        return new BooleanType();
     }
-
 
     @Override
     public boolean equals(Object another) {
         if (this == another) return true;
-        if (!(another instanceof BooleanValue)) return false;
-        BooleanValue other = (BooleanValue) another;
+        if (!(another instanceof BooleanValue other)) return false;
         return this.value == other.value;
     }
 

@@ -84,13 +84,13 @@ public class ReadFileStatement implements IStatement {
 
     @Override
     public ISymbolTable<String, IType> typecheck(ISymbolTable<String, IType> typeEnv) throws MyException {
-        // 1. Expresia trebuie să se evalueze la StringType (numele fișierului)
+        //Expresia trebuie sa se evalueze la StringType(numele fis.)
         IType typexp = expression.typecheck(typeEnv);
         if (!typexp.equals(new StringType())) {
             throw new MyException("ReadFile: Expression must evaluate to StringType.");
         }
 
-        // 2. Variabila trebuie să fie IntegerType
+        //variabila trebuie sa fie IntegerType
         if (!typeEnv.isDefined(varName)) {
             throw new MyException("ReadFile: Variable " + varName + " is not defined.");
         }
@@ -98,8 +98,6 @@ public class ReadFileStatement implements IStatement {
         if (!varType.equals(new IntegerType())) {
             throw new MyException("ReadFile: Variable " + varName + " must be IntegerType.");
         }
-
-        // 3. Returnează mediul neschimbat
         return typeEnv;
     }
 

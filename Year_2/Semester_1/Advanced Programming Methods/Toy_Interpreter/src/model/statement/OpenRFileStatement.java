@@ -59,13 +59,11 @@ public class OpenRFileStatement implements IStatement {
 
     @Override
     public ISymbolTable<String, IType> typecheck(ISymbolTable<String, IType> typeEnv) throws MyException {
-        // 1. Expresia trebuie să se evalueze la StringType (numele fișierului)
+        //expresia trebuie sa se evalueze la StringType (numele fisierului)
         IType typexp = expression.typecheck(typeEnv);
         if (!typexp.equals(new StringType())) {
             throw new MyException("OpenRFile: Expression must evaluate to StringType.");
         }
-
-        // 2. Returnează mediul neschimbat
         return typeEnv;
     }
 

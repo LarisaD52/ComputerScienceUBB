@@ -31,10 +31,8 @@ public class PrintStatement implements IStatement {
 
     @Override
     public ISymbolTable<String, IType> typecheck(ISymbolTable<String, IType> typeEnv) throws MyException {
-        // Verifica tipul expresiei (rezultatul nu conteaza, doar ca e valida)
+        //verifica tipul expresiei
         expression.typecheck(typeEnv);
-
-        // Returneaza mediul de tipuri neschimbat
         return typeEnv;
     }
 

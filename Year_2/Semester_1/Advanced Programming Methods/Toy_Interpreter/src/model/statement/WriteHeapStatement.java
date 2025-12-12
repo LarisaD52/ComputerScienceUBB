@@ -58,16 +58,16 @@ public class WriteHeapStatement implements IStatement {
 
     @Override
     public ISymbolTable<String, IType> typecheck(ISymbolTable<String, IType> typeEnv) throws MyException {
-        // 1. Obtine tipul variabilei (trebuie sa fie RefType)
+        //obtine tipul variabilei (trebuie sa fie RefType)
         IType typeVar = typeEnv.getValue(varName);
 
-        // 2. Obtine tipul expresiei
+        //obtine tipul expresiei
         IType typeExp = expression.typecheck(typeEnv);
 
         if (typeVar instanceof RefType refType) {
-            // 3. Verifica daca tipul interior al referintei se potriveste cu tipul expresiei
+            //verifica daca tipul interior al referintei se potriveste cu tipul expresiei
             if (refType.getInner().equals(typeExp)) {
-                return typeEnv; // Tipurile se potrivesc
+                return typeEnv; //tipurile se potrivesc
             } else {
                 throw new MyException("WH stmt: right hand side (" + typeExp +
                         ") and left hand side (Ref of " + refType.getInner() +

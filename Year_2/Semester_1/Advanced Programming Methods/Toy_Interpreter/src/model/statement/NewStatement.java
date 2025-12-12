@@ -53,16 +53,16 @@ public class NewStatement implements IStatement {
 
     @Override
     public ISymbolTable<String, IType> typecheck(ISymbolTable<String, IType> typeEnv) throws MyException {
-        // 1. Obtine tipul variabilei din SymbolTable (trebuie sa fie RefType)
+        //Obtine tipul variabilei din SymbolTable (trebuie sa fie RefType)
         IType typeVar = typeEnv.getValue(varName);
 
-        // 2. Obtine tipul expresiei
+        //Obtine tipul expresiei
         IType typeExp = expression.typecheck(typeEnv);
 
         if (typeVar instanceof RefType refType) {
-            // 3. Verifica daca tipul interior al referintei (refType.getInner()) se potriveste cu tipul expresiei (typeExp)
+            //verifica daca tipul interior al referintei (refType.getInner()) se potriveste cu tipul expresiei (typeExp)
             if (refType.getInner().equals(typeExp)) {
-                return typeEnv; // Tipurile se potrivesc
+                return typeEnv; //tipurile se potrivesc
             } else {
                 throw new MyException("NEW stmt: right hand side (" + typeExp +
                         ") and left hand side (Ref of " + refType.getInner() +

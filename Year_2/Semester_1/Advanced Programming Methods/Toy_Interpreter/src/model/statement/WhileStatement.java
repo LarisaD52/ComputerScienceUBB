@@ -40,17 +40,16 @@ public class WhileStatement implements IStatement {
 
     @Override
     public ISymbolTable<String, IType> typecheck(ISymbolTable<String, IType> typeEnv) throws MyException {
-        // 1. Verifica tipul condiției
+        //verifica tipul condiției
         IType typexp = condition.typecheck(typeEnv);
         if (!typexp.equals(new BooleanType())) {
             throw new MyException("The condition of WHILE has not the type bool.");
         }
 
-        // 2. Verifica tipul corpului (nu afecteaza typeEnv-ul exterior)
-        // Nu este necesar clone-ul aici, deoarece nu se adauga variabile noi
+        //Verifica tipul corpului (nu afecteaza typeEnv-ul exterior)
+        //Nu este necesar clone-ul aici, deoarece nu se adauga variabile noi
         body.typecheck(typeEnv);
 
-        // 3. Returneaza mediul de tipuri neschimbat
         return typeEnv;
     }
     @Override

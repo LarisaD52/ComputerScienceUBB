@@ -34,14 +34,13 @@ public class CompoundStatement implements IStatement {
 
     @Override
     public ISymbolTable<String, IType> typecheck(ISymbolTable<String, IType> typeEnv) throws MyException {
-        // Obține mediul de tipuri după verificarea primei instrucțiuni
+        //obtin mediul de tipuri dupa verificarea primei instructiuni
         ISymbolTable<String, IType> typeEnv1 = first.typecheck(typeEnv);
 
-        // Verifică a doua instrucțiune folosind mediul actualizat
+        //verific a doua instructiune folosind mediul actualizat
         ISymbolTable<String, IType> typeEnv2 = second.typecheck(typeEnv1);
 
-        // Returnează mediul final
-        return typeEnv2;
+        return typeEnv2; //mediul final
     }
 
     @Override

@@ -9,7 +9,7 @@ import model.state.ISymbolTable;
 import model.state.ProgramState;
 import model.type.IType;
 import model.value.IValue;
-import model.state.IHeap;
+
 
 public class AssignmentStatement implements IStatement {
   private final String variableName;

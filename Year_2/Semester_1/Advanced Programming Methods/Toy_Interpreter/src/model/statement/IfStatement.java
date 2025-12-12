@@ -45,16 +45,12 @@ public class IfStatement implements IStatement {
 
     @Override
     public ISymbolTable<String, IType> typecheck(ISymbolTable<String, IType> typeEnv) throws MyException {
-        // 1. Condiția trebuie să fie Boolean
+        //conditia trebuie să fie Boolean
         IType typexp = condition.typecheck(typeEnv);
         if (typexp.equals(new BooleanType())) {
-            // 2. Verifică ramura THEN (clone() este important pentru a izola declarațiile de variabile)
-            thenStatement.typecheck(typeEnv.deepCopy()); // Presupunând că ISymbolTable are deepCopy/clone
-
-            // 3. Verifică ramura ELSE
-            elseStatement.typecheck(typeEnv.deepCopy()); // Presupunând că ISymbolTable are deepCopy/clone
-
-            // 4. Returnează mediul inițial
+            //Verifica ramura THEN (clone() este important pentru a izola declaratiile de variabile)
+            thenStatement.typecheck(typeEnv.deepCopy());
+            elseStatement.typecheck(typeEnv.deepCopy());
             return typeEnv;
         } else {
             throw new MyException("The condition of IF has not the type bool.");

@@ -39,11 +39,10 @@ public class ForkStatement implements IStatement {
 
     @Override
     public ISymbolTable<String, IType> typecheck(ISymbolTable<String, IType> typeEnv) throws MyException {
-        // Verifică instrucțiunea internă (un nou fir de execuție pornește cu o copie a mediului de tipuri)
-        // Folosim o copie a typeEnv pentru typecheck-ul intern, deși rezultatul nu este folosit
+        //verifica instructiunea interna (un nou fir de executie pornește cu o copie a mediului de tipuri)
+        //folosim o copie a typeEnv pentru typecheck-ul intern, desi rezultatul nu este folosit
         innerStatement.typecheck(typeEnv.deepCopy());
 
-        // Returnează mediul de tipuri neschimbat
         return typeEnv;
     }
 

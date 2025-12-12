@@ -27,7 +27,7 @@ public class VariableDeclarationStatement implements IStatement {
         if (symTable.isDefined(name))
             throw new MyException("Variable '" + name + "' already declared.");
 
-        // Fiecare tip definește o valoare implicită
+        //fiecare tip defineste o valoare implicita
         symTable.put(name, type.getDefaultValue());
         return null;
     }
@@ -36,16 +36,14 @@ public class VariableDeclarationStatement implements IStatement {
 
     @Override
     public ISymbolTable<String, IType> typecheck(ISymbolTable<String, IType> typeEnv) throws MyException {
-        // Verifica daca variabila e deja definita
+        //verifica daca variabila e deja definita
         if (typeEnv.isDefined(name)) {
             throw new MyException("Variable " + name + " is already defined.");
         }
-
-        // Adauga variabila noua in mediu de tipuri
+        //adauga variabila noua in mediu de tipuri
         typeEnv.put(name, type);
+        return typeEnv;        //ret. mediul de tipuri actualizat
 
-        // Returneaza mediul de tipuri actualizat
-        return typeEnv;
     }
 
     @Override

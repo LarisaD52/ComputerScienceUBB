@@ -58,7 +58,7 @@ public class MapSymbolTable<K,V> implements ISymbolTable<K,V>{
         MapSymbolTable<K, V> newTable = new MapSymbolTable<>();
         for (Map.Entry<K, V> entry : map.entrySet()) {
             newTable.put(entry.getKey(), entry.getValue());
-            // V este deja un IValue (care este imutabil), deci poți copia referința
+            // V este deja un IValue (care este imutabil), deci poti copia referința
         }
         return newTable;
     }

@@ -31,6 +31,7 @@
 - [Databases](Year_2/Semester_1/Databases)
 - [Functional and Logical Programming in Lisp and Prolog](Year_2/Semester_1/Functional_Logical_Programming)
 - [Probability & Statistics](Year_2/Semester_1/Probability_Statistics)
+- [English](Year_2/Semester_1/English)
 
 ### 📂 Semester 2
 - *(empty, add future courses here)*

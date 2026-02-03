@@ -1,0 +1,621 @@
+
+--- PROGRAM STATE 11---
+Execution Stack: [(Ref(int) a; (new(a, ConstantExpression[value=20]); (for(v=ConstantExpression[value=0]; v<ConstantExpression[value=3]; v=BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]]) fork((print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])])); print(rH(VariableExpression[variableName=a])))))]
+Symbol Table: {}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(new(a, ConstantExpression[value=20]); (for(v=ConstantExpression[value=0]; v<ConstantExpression[value=3]; v=BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]]) fork((print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])])); print(rH(VariableExpression[variableName=a])))), Ref(int) a]
+Symbol Table: {}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(new(a, ConstantExpression[value=20]); (for(v=ConstantExpression[value=0]; v<ConstantExpression[value=3]; v=BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]]) fork((print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])])); print(rH(VariableExpression[variableName=a])))), Ref(int) a]
+Symbol Table: {}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(new(a, ConstantExpression[value=20]); (for(v=ConstantExpression[value=0]; v<ConstantExpression[value=3]; v=BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]]) fork((print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])])); print(rH(VariableExpression[variableName=a]))))]
+Symbol Table: {a=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(new(a, ConstantExpression[value=20]); (for(v=ConstantExpression[value=0]; v<ConstantExpression[value=3]; v=BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]]) fork((print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])])); print(rH(VariableExpression[variableName=a]))))]
+Symbol Table: {a=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(for(v=ConstantExpression[value=0]; v<ConstantExpression[value=3]; v=BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]]) fork((print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])])); print(rH(VariableExpression[variableName=a]))), new(a, ConstantExpression[value=20])]
+Symbol Table: {a=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(for(v=ConstantExpression[value=0]; v<ConstantExpression[value=3]; v=BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]]) fork((print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])])); print(rH(VariableExpression[variableName=a]))), new(a, ConstantExpression[value=20])]
+Symbol Table: {a=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(for(v=ConstantExpression[value=0]; v<ConstantExpression[value=3]; v=BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]]) fork((print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])])); print(rH(VariableExpression[variableName=a])))]
+Symbol Table: {a=(1, int)}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(for(v=ConstantExpression[value=0]; v<ConstantExpression[value=3]; v=BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]]) fork((print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])])); print(rH(VariableExpression[variableName=a])))]
+Symbol Table: {a=(1, int)}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), for(v=ConstantExpression[value=0]; v<ConstantExpression[value=3]; v=BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]]) fork((print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])]))]
+Symbol Table: {a=(1, int)}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), for(v=ConstantExpression[value=0]; v<ConstantExpression[value=3]; v=BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]]) fork((print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])]))]
+Symbol Table: {a=(1, int)}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), (int v; (v = ConstantExpression[value=0]; model.statement.WhileStatement@31221be2))]
+Symbol Table: {a=(1, int)}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), (int v; (v = ConstantExpression[value=0]; model.statement.WhileStatement@31221be2))]
+Symbol Table: {a=(1, int)}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), (v = ConstantExpression[value=0]; model.statement.WhileStatement@31221be2), int v]
+Symbol Table: {a=(1, int)}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), (v = ConstantExpression[value=0]; model.statement.WhileStatement@31221be2), int v]
+Symbol Table: {a=(1, int)}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), (v = ConstantExpression[value=0]; model.statement.WhileStatement@31221be2)]
+Symbol Table: {a=(1, int), v=0}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), (v = ConstantExpression[value=0]; model.statement.WhileStatement@31221be2)]
+Symbol Table: {a=(1, int), v=0}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2, v = ConstantExpression[value=0]]
+Symbol Table: {a=(1, int), v=0}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2, v = ConstantExpression[value=0]]
+Symbol Table: {a=(1, int), v=0}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2]
+Symbol Table: {a=(1, int), v=0}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2]
+Symbol Table: {a=(1, int), v=0}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2, (fork((print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])])); v = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]])]
+Symbol Table: {a=(1, int), v=0}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2, (fork((print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])])); v = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]])]
+Symbol Table: {a=(1, int), v=0}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2, v = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]], fork((print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])]))]
+Symbol Table: {a=(1, int), v=0}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2, v = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]], fork((print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])]))]
+Symbol Table: {a=(1, int), v=0}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2, v = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]]]
+Symbol Table: {a=(1, int), v=0}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 12---
+Execution Stack: [(print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])])]
+Symbol Table: {a=(1, int), v=0}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2, v = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]]]
+Symbol Table: {a=(1, int), v=0}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 12---
+Execution Stack: [(print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])])]
+Symbol Table: {a=(1, int), v=0}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2]
+Symbol Table: {a=(1, int), v=1}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 12---
+Execution Stack: [v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])], print(VariableExpression[variableName=v])]
+Symbol Table: {a=(1, int), v=0}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2]
+Symbol Table: {a=(1, int), v=1}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 12---
+Execution Stack: [v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])], print(VariableExpression[variableName=v])]
+Symbol Table: {a=(1, int), v=0}
+Heap: {1=20}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2, (fork((print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])])); v = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]])]
+Symbol Table: {a=(1, int), v=1}
+Heap: {1=20}
+Output: [0]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 12---
+Execution Stack: [v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])]]
+Symbol Table: {a=(1, int), v=0}
+Heap: {1=20}
+Output: [0]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2, (fork((print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])])); v = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]])]
+Symbol Table: {a=(1, int), v=1}
+Heap: {1=20}
+Output: [0]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 12---
+Execution Stack: [v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])]]
+Symbol Table: {a=(1, int), v=0}
+Heap: {1=20}
+Output: [0]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2, v = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]], fork((print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])]))]
+Symbol Table: {a=(1, int), v=1}
+Heap: {1=20}
+Output: [0]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 12---
+Execution Stack: []
+Symbol Table: {a=(1, int), v=0}
+Heap: {1=20}
+Output: [0]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2, v = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]], fork((print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])]))]
+Symbol Table: {a=(1, int), v=1}
+Heap: {1=20}
+Output: [0]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2, v = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]]]
+Symbol Table: {a=(1, int), v=1}
+Heap: {1=20}
+Output: [0]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 13---
+Execution Stack: [(print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])])]
+Symbol Table: {a=(1, int), v=1}
+Heap: {1=20}
+Output: [0]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2, v = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]]]
+Symbol Table: {a=(1, int), v=1}
+Heap: {1=20}
+Output: [0]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 13---
+Execution Stack: [(print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])])]
+Symbol Table: {a=(1, int), v=1}
+Heap: {1=20}
+Output: [0]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2]
+Symbol Table: {a=(1, int), v=2}
+Heap: {1=20}
+Output: [0]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 13---
+Execution Stack: [v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])], print(VariableExpression[variableName=v])]
+Symbol Table: {a=(1, int), v=1}
+Heap: {1=20}
+Output: [0]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2]
+Symbol Table: {a=(1, int), v=2}
+Heap: {1=20}
+Output: [0]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 13---
+Execution Stack: [v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])], print(VariableExpression[variableName=v])]
+Symbol Table: {a=(1, int), v=1}
+Heap: {1=20}
+Output: [0]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2, (fork((print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])])); v = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]])]
+Symbol Table: {a=(1, int), v=2}
+Heap: {1=20}
+Output: [0, 1]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 13---
+Execution Stack: [v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])]]
+Symbol Table: {a=(1, int), v=1}
+Heap: {1=20}
+Output: [0, 1]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2, (fork((print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])])); v = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]])]
+Symbol Table: {a=(1, int), v=2}
+Heap: {1=20}
+Output: [0, 1]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 13---
+Execution Stack: [v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])]]
+Symbol Table: {a=(1, int), v=1}
+Heap: {1=20}
+Output: [0, 1]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2, v = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]], fork((print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])]))]
+Symbol Table: {a=(1, int), v=2}
+Heap: {1=20}
+Output: [0, 1]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 13---
+Execution Stack: []
+Symbol Table: {a=(1, int), v=20}
+Heap: {1=20}
+Output: [0, 1]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2, v = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]], fork((print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])]))]
+Symbol Table: {a=(1, int), v=2}
+Heap: {1=20}
+Output: [0, 1]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2, v = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]]]
+Symbol Table: {a=(1, int), v=2}
+Heap: {1=20}
+Output: [0, 1]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 14---
+Execution Stack: [(print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])])]
+Symbol Table: {a=(1, int), v=2}
+Heap: {1=20}
+Output: [0, 1]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2, v = BinaryOperatorExpression[operator=+, left=VariableExpression[variableName=v], right=ConstantExpression[value=1]]]
+Symbol Table: {a=(1, int), v=2}
+Heap: {1=20}
+Output: [0, 1]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 14---
+Execution Stack: [(print(VariableExpression[variableName=v]); v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])])]
+Symbol Table: {a=(1, int), v=2}
+Heap: {1=20}
+Output: [0, 1]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2]
+Symbol Table: {a=(1, int), v=3}
+Heap: {1=20}
+Output: [0, 1]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 14---
+Execution Stack: [v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])], print(VariableExpression[variableName=v])]
+Symbol Table: {a=(1, int), v=2}
+Heap: {1=20}
+Output: [0, 1]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a])), model.statement.WhileStatement@31221be2]
+Symbol Table: {a=(1, int), v=3}
+Heap: {1=20}
+Output: [0, 1]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 14---
+Execution Stack: [v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])], print(VariableExpression[variableName=v])]
+Symbol Table: {a=(1, int), v=2}
+Heap: {1=20}
+Output: [0, 1]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a]))]
+Symbol Table: {a=(1, int), v=3}
+Heap: {1=20}
+Output: [0, 1, 2]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 14---
+Execution Stack: [v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])]]
+Symbol Table: {a=(1, int), v=2}
+Heap: {1=20}
+Output: [0, 1, 2]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=a]))]
+Symbol Table: {a=(1, int), v=3}
+Heap: {1=20}
+Output: [0, 1, 2]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 14---
+Execution Stack: [v = BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=v], right=rH(VariableExpression[variableName=a])]]
+Symbol Table: {a=(1, int), v=2}
+Heap: {1=20}
+Output: [0, 1, 2]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: []
+Symbol Table: {a=(1, int), v=3}
+Heap: {1=20}
+Output: [0, 1, 2, 20]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 14---
+Execution Stack: []
+Symbol Table: {a=(1, int), v=40}
+Heap: {1=20}
+Output: [0, 1, 2, 20]
+FileTable: []
+----------------------
+

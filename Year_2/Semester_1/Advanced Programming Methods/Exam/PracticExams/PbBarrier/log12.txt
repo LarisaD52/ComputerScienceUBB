@@ -1,0 +1,612 @@
+
+--- PROGRAM STATE 11---
+Execution Stack: [(Ref(int) v1; (Ref(int) v2; (Ref(int) v3; (int cnt; (new(v1, ConstantExpression[value=2]); (new(v2, ConstantExpression[value=3]); (new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3])))))))))))))]
+Symbol Table: {}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(Ref(int) v2; (Ref(int) v3; (int cnt; (new(v1, ConstantExpression[value=2]); (new(v2, ConstantExpression[value=3]); (new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3])))))))))))), Ref(int) v1]
+Symbol Table: {}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(Ref(int) v2; (Ref(int) v3; (int cnt; (new(v1, ConstantExpression[value=2]); (new(v2, ConstantExpression[value=3]); (new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3])))))))))))), Ref(int) v1]
+Symbol Table: {}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(Ref(int) v2; (Ref(int) v3; (int cnt; (new(v1, ConstantExpression[value=2]); (new(v2, ConstantExpression[value=3]); (new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3]))))))))))))]
+Symbol Table: {v1=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(Ref(int) v2; (Ref(int) v3; (int cnt; (new(v1, ConstantExpression[value=2]); (new(v2, ConstantExpression[value=3]); (new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3]))))))))))))]
+Symbol Table: {v1=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(Ref(int) v3; (int cnt; (new(v1, ConstantExpression[value=2]); (new(v2, ConstantExpression[value=3]); (new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3]))))))))))), Ref(int) v2]
+Symbol Table: {v1=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(Ref(int) v3; (int cnt; (new(v1, ConstantExpression[value=2]); (new(v2, ConstantExpression[value=3]); (new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3]))))))))))), Ref(int) v2]
+Symbol Table: {v1=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(Ref(int) v3; (int cnt; (new(v1, ConstantExpression[value=2]); (new(v2, ConstantExpression[value=3]); (new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3])))))))))))]
+Symbol Table: {v1=(0, int), v2=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(Ref(int) v3; (int cnt; (new(v1, ConstantExpression[value=2]); (new(v2, ConstantExpression[value=3]); (new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3])))))))))))]
+Symbol Table: {v1=(0, int), v2=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(int cnt; (new(v1, ConstantExpression[value=2]); (new(v2, ConstantExpression[value=3]); (new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3])))))))))), Ref(int) v3]
+Symbol Table: {v1=(0, int), v2=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(int cnt; (new(v1, ConstantExpression[value=2]); (new(v2, ConstantExpression[value=3]); (new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3])))))))))), Ref(int) v3]
+Symbol Table: {v1=(0, int), v2=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(int cnt; (new(v1, ConstantExpression[value=2]); (new(v2, ConstantExpression[value=3]); (new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3]))))))))))]
+Symbol Table: {v1=(0, int), v2=(0, int), v3=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(int cnt; (new(v1, ConstantExpression[value=2]); (new(v2, ConstantExpression[value=3]); (new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3]))))))))))]
+Symbol Table: {v1=(0, int), v2=(0, int), v3=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(new(v1, ConstantExpression[value=2]); (new(v2, ConstantExpression[value=3]); (new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3]))))))))), int cnt]
+Symbol Table: {v1=(0, int), v2=(0, int), v3=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(new(v1, ConstantExpression[value=2]); (new(v2, ConstantExpression[value=3]); (new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3]))))))))), int cnt]
+Symbol Table: {v1=(0, int), v2=(0, int), v3=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(new(v1, ConstantExpression[value=2]); (new(v2, ConstantExpression[value=3]); (new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3])))))))))]
+Symbol Table: {cnt=0, v1=(0, int), v2=(0, int), v3=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(new(v1, ConstantExpression[value=2]); (new(v2, ConstantExpression[value=3]); (new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3])))))))))]
+Symbol Table: {cnt=0, v1=(0, int), v2=(0, int), v3=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(new(v2, ConstantExpression[value=3]); (new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3])))))))), new(v1, ConstantExpression[value=2])]
+Symbol Table: {cnt=0, v1=(0, int), v2=(0, int), v3=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(new(v2, ConstantExpression[value=3]); (new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3])))))))), new(v1, ConstantExpression[value=2])]
+Symbol Table: {cnt=0, v1=(0, int), v2=(0, int), v3=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(new(v2, ConstantExpression[value=3]); (new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3]))))))))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(0, int), v3=(0, int)}
+Heap: {1=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(new(v2, ConstantExpression[value=3]); (new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3]))))))))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(0, int), v3=(0, int)}
+Heap: {1=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3]))))))), new(v2, ConstantExpression[value=3])]
+Symbol Table: {cnt=0, v1=(1, int), v2=(0, int), v3=(0, int)}
+Heap: {1=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3]))))))), new(v2, ConstantExpression[value=3])]
+Symbol Table: {cnt=0, v1=(1, int), v2=(0, int), v3=(0, int)}
+Heap: {1=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3])))))))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(0, int)}
+Heap: {1=2, 2=3}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(new(v3, ConstantExpression[value=4]); (newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3])))))))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(0, int)}
+Heap: {1=2, 2=3}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3])))))), new(v3, ConstantExpression[value=4])]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(0, int)}
+Heap: {1=2, 2=3}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3])))))), new(v3, ConstantExpression[value=4])]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(0, int)}
+Heap: {1=2, 2=3}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3]))))))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(newBarrier(cnt, rH(VariableExpression[variableName=v2])); (fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3]))))))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3]))))), newBarrier(cnt, rH(VariableExpression[variableName=v2]))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3]))))), newBarrier(cnt, rH(VariableExpression[variableName=v2]))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3])))))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))); (fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3])))))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3])))), fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1])))))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3])))), fork((await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1])))))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3]))))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 12---
+Execution Stack: [(await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))); (await(cnt); print(rH(VariableExpression[variableName=v3]))))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 12---
+Execution Stack: [(await(cnt); (wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(await(cnt); print(rH(VariableExpression[variableName=v3]))), fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2])))))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 12---
+Execution Stack: [(wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))), await(cnt)]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(await(cnt); print(rH(VariableExpression[variableName=v3]))), fork((await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2])))))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 12---
+Execution Stack: [(wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1]))), await(cnt)]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(await(cnt); print(rH(VariableExpression[variableName=v3])))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 12---
+Execution Stack: [(wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1])))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 13---
+Execution Stack: [(await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(await(cnt); print(rH(VariableExpression[variableName=v3])))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 12---
+Execution Stack: [(wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v1])))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 13---
+Execution Stack: [(await(cnt); (wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=v3])), await(cnt)]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 12---
+Execution Stack: [print(rH(VariableExpression[variableName=v1])), wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]])]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 13---
+Execution Stack: [(wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))), await(cnt)]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=v3])), await(cnt)]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 12---
+Execution Stack: [print(rH(VariableExpression[variableName=v1])), wH(v1, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v1]), right=ConstantExpression[value=10]])]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 13---
+Execution Stack: [(wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2]))), await(cnt)]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=2, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=v3]))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=20, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 12---
+Execution Stack: [print(rH(VariableExpression[variableName=v1]))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=20, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 13---
+Execution Stack: [(wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2])))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=20, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(rH(VariableExpression[variableName=v3]))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=20, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 12---
+Execution Stack: [print(rH(VariableExpression[variableName=v1]))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=20, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 13---
+Execution Stack: [(wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]]); print(rH(VariableExpression[variableName=v2])))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=20, 2=3, 3=4}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: []
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=20, 2=3, 3=4}
+Output: [4, 20]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 12---
+Execution Stack: []
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=20, 2=3, 3=4}
+Output: [4, 20]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 13---
+Execution Stack: [print(rH(VariableExpression[variableName=v2])), wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]])]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=20, 2=3, 3=4}
+Output: [4, 20]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 13---
+Execution Stack: [print(rH(VariableExpression[variableName=v2])), wH(v2, BinaryOperatorExpression[operator=*, left=rH(VariableExpression[variableName=v2]), right=ConstantExpression[value=10]])]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=20, 2=3, 3=4}
+Output: [4, 20]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 13---
+Execution Stack: [print(rH(VariableExpression[variableName=v2]))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=20, 2=30, 3=4}
+Output: [4, 20]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 13---
+Execution Stack: [print(rH(VariableExpression[variableName=v2]))]
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=20, 2=30, 3=4}
+Output: [4, 20]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 13---
+Execution Stack: []
+Symbol Table: {cnt=0, v1=(1, int), v2=(2, int), v3=(3, int)}
+Heap: {1=20, 2=30, 3=4}
+Output: [4, 20, 30]
+FileTable: []
+----------------------
+

@@ -1,0 +1,1323 @@
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;(v=10;(fork((v=v-1;(v=v-1;print(v))));(sleep (10);print(v*10)))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(v=10;(fork((v=v-1;(v=v-1;print(v))));(sleep (10);print(v*10)))), int v]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(v=10;(fork((v=v-1;(v=v-1;print(v))));(sleep (10);print(v*10)))), int v]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(v=10;(fork((v=v-1;(v=v-1;print(v))));(sleep (10);print(v*10))))]
+----------
+* symbolTable: 
+{v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(v=10;(fork((v=v-1;(v=v-1;print(v))));(sleep (10);print(v*10))))]
+----------
+* symbolTable: 
+{v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((v=v-1;(v=v-1;print(v))));(sleep (10);print(v*10))), v=10]
+----------
+* symbolTable: 
+{v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((v=v-1;(v=v-1;print(v))));(sleep (10);print(v*10))), v=10]
+----------
+* symbolTable: 
+{v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((v=v-1;(v=v-1;print(v))));(sleep (10);print(v*10)))]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((v=v-1;(v=v-1;print(v))));(sleep (10);print(v*10)))]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(sleep (10);print(v*10)), fork((v=v-1;(v=v-1;print(v))))]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(sleep (10);print(v*10)), fork((v=v-1;(v=v-1;print(v))))]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(sleep (10);print(v*10))]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(v=v-1;(v=v-1;print(v)))]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(sleep (10);print(v*10))]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(v=v-1;(v=v-1;print(v)))]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), sleep (10)]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(v=v-1;print(v)), v=v-1]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), sleep (10)]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(v=v-1;print(v)), v=v-1]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), sleep (10-1)]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(v=v-1;print(v))]
+----------
+* symbolTable: 
+{v=9}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), sleep (10-1)]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(v=v-1;print(v))]
+----------
+* symbolTable: 
+{v=9}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), sleep (10-1-1)]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[print(v), v=v-1]
+----------
+* symbolTable: 
+{v=9}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), sleep (10-1-1)]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[print(v), v=v-1]
+----------
+* symbolTable: 
+{v=9}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), sleep (10-1-1-1)]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[print(v)]
+----------
+* symbolTable: 
+{v=8}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), sleep (10-1-1-1)]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[print(v)]
+----------
+* symbolTable: 
+{v=8}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), sleep (10-1-1-1-1)]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: [8]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{v=8}
+----------
+* out: [8]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), sleep (10-1-1-1-1)]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: [8]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), sleep (10-1-1-1-1-1)]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: [8]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), sleep (10-1-1-1-1-1)]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: [8]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), sleep (10-1-1-1-1-1-1)]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: [8]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), sleep (10-1-1-1-1-1-1)]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: [8]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), sleep (10-1-1-1-1-1-1-1)]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: [8]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), sleep (10-1-1-1-1-1-1-1)]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: [8]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), sleep (10-1-1-1-1-1-1-1-1)]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: [8]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), sleep (10-1-1-1-1-1-1-1-1)]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: [8]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), sleep (10-1-1-1-1-1-1-1-1-1)]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: [8]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), sleep (10-1-1-1-1-1-1-1-1-1)]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: [8]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), sleep (10-1-1-1-1-1-1-1-1-1-1)]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: [8]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), sleep (10-1-1-1-1-1-1-1-1-1-1)]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: [8]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10)]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: [8]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10)]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: [8]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{v=10}
+----------
+* out: [8, 100]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+

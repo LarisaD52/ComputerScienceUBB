@@ -1,0 +1,558 @@
+
+--- PROGRAM STATE 1---
+Execution Stack: [(Ref(int) a; (Ref(int) b; (int v; (new(a, ConstantExpression[value=0]); (new(b, ConstantExpression[value=0]); (wH(a, ConstantExpression[value=1]); (wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v])))))))))))]
+Symbol Table: {}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(Ref(int) b; (int v; (new(a, ConstantExpression[value=0]); (new(b, ConstantExpression[value=0]); (wH(a, ConstantExpression[value=1]); (wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v])))))))))), Ref(int) a]
+Symbol Table: {}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(Ref(int) b; (int v; (new(a, ConstantExpression[value=0]); (new(b, ConstantExpression[value=0]); (wH(a, ConstantExpression[value=1]); (wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v])))))))))), Ref(int) a]
+Symbol Table: {}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(Ref(int) b; (int v; (new(a, ConstantExpression[value=0]); (new(b, ConstantExpression[value=0]); (wH(a, ConstantExpression[value=1]); (wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v]))))))))))]
+Symbol Table: {a=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(Ref(int) b; (int v; (new(a, ConstantExpression[value=0]); (new(b, ConstantExpression[value=0]); (wH(a, ConstantExpression[value=1]); (wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v]))))))))))]
+Symbol Table: {a=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(int v; (new(a, ConstantExpression[value=0]); (new(b, ConstantExpression[value=0]); (wH(a, ConstantExpression[value=1]); (wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v]))))))))), Ref(int) b]
+Symbol Table: {a=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(int v; (new(a, ConstantExpression[value=0]); (new(b, ConstantExpression[value=0]); (wH(a, ConstantExpression[value=1]); (wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v]))))))))), Ref(int) b]
+Symbol Table: {a=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(int v; (new(a, ConstantExpression[value=0]); (new(b, ConstantExpression[value=0]); (wH(a, ConstantExpression[value=1]); (wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v])))))))))]
+Symbol Table: {a=(0, int), b=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(int v; (new(a, ConstantExpression[value=0]); (new(b, ConstantExpression[value=0]); (wH(a, ConstantExpression[value=1]); (wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v])))))))))]
+Symbol Table: {a=(0, int), b=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(new(a, ConstantExpression[value=0]); (new(b, ConstantExpression[value=0]); (wH(a, ConstantExpression[value=1]); (wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v])))))))), int v]
+Symbol Table: {a=(0, int), b=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(new(a, ConstantExpression[value=0]); (new(b, ConstantExpression[value=0]); (wH(a, ConstantExpression[value=1]); (wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v])))))))), int v]
+Symbol Table: {a=(0, int), b=(0, int)}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(new(a, ConstantExpression[value=0]); (new(b, ConstantExpression[value=0]); (wH(a, ConstantExpression[value=1]); (wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v]))))))))]
+Symbol Table: {a=(0, int), b=(0, int), v=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(new(a, ConstantExpression[value=0]); (new(b, ConstantExpression[value=0]); (wH(a, ConstantExpression[value=1]); (wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v]))))))))]
+Symbol Table: {a=(0, int), b=(0, int), v=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(new(b, ConstantExpression[value=0]); (wH(a, ConstantExpression[value=1]); (wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v]))))))), new(a, ConstantExpression[value=0])]
+Symbol Table: {a=(0, int), b=(0, int), v=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(new(b, ConstantExpression[value=0]); (wH(a, ConstantExpression[value=1]); (wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v]))))))), new(a, ConstantExpression[value=0])]
+Symbol Table: {a=(0, int), b=(0, int), v=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(new(b, ConstantExpression[value=0]); (wH(a, ConstantExpression[value=1]); (wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v])))))))]
+Symbol Table: {a=(1, int), b=(0, int), v=0}
+Heap: {1=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(new(b, ConstantExpression[value=0]); (wH(a, ConstantExpression[value=1]); (wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v])))))))]
+Symbol Table: {a=(1, int), b=(0, int), v=0}
+Heap: {1=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(wH(a, ConstantExpression[value=1]); (wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v])))))), new(b, ConstantExpression[value=0])]
+Symbol Table: {a=(1, int), b=(0, int), v=0}
+Heap: {1=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(wH(a, ConstantExpression[value=1]); (wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v])))))), new(b, ConstantExpression[value=0])]
+Symbol Table: {a=(1, int), b=(0, int), v=0}
+Heap: {1=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(wH(a, ConstantExpression[value=1]); (wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v]))))))]
+Symbol Table: {a=(1, int), b=(2, int), v=0}
+Heap: {1=0, 2=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(wH(a, ConstantExpression[value=1]); (wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v]))))))]
+Symbol Table: {a=(1, int), b=(2, int), v=0}
+Heap: {1=0, 2=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v]))))), wH(a, ConstantExpression[value=1])]
+Symbol Table: {a=(1, int), b=(2, int), v=0}
+Heap: {1=0, 2=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v]))))), wH(a, ConstantExpression[value=1])]
+Symbol Table: {a=(1, int), b=(2, int), v=0}
+Heap: {1=0, 2=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v])))))]
+Symbol Table: {a=(1, int), b=(2, int), v=0}
+Heap: {1=1, 2=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(wH(b, ConstantExpression[value=2]); (v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v])))))]
+Symbol Table: {a=(1, int), b=(2, int), v=0}
+Heap: {1=1, 2=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v])))), wH(b, ConstantExpression[value=2])]
+Symbol Table: {a=(1, int), b=(2, int), v=0}
+Heap: {1=1, 2=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v])))), wH(b, ConstantExpression[value=2])]
+Symbol Table: {a=(1, int), b=(2, int), v=0}
+Heap: {1=1, 2=0}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v]))))]
+Symbol Table: {a=(1, int), b=(2, int), v=0}
+Heap: {1=1, 2=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); (print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v]))))]
+Symbol Table: {a=(1, int), b=(2, int), v=0}
+Heap: {1=1, 2=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v]))), v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200])]
+Symbol Table: {a=(1, int), b=(2, int), v=0}
+Heap: {1=1, 2=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v]))), v = (rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b]) ? ConstantExpression[value=100] : ConstantExpression[value=200])]
+Symbol Table: {a=(1, int), b=(2, int), v=0}
+Heap: {1=1, 2=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v]))), (IF(rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b])) THEN(v = ConstantExpression[value=100]) ELSE(v = ConstantExpression[value=200]))]
+Symbol Table: {a=(1, int), b=(2, int), v=0}
+Heap: {1=1, 2=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v]))), (IF(rH(VariableExpression[variableName=a]) < rH(VariableExpression[variableName=b])) THEN(v = ConstantExpression[value=100]) ELSE(v = ConstantExpression[value=200]))]
+Symbol Table: {a=(1, int), b=(2, int), v=0}
+Heap: {1=1, 2=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v]))), v = ConstantExpression[value=100]]
+Symbol Table: {a=(1, int), b=(2, int), v=0}
+Heap: {1=1, 2=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v]))), v = ConstantExpression[value=100]]
+Symbol Table: {a=(1, int), b=(2, int), v=0}
+Heap: {1=1, 2=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v])))]
+Symbol Table: {a=(1, int), b=(2, int), v=100}
+Heap: {1=1, 2=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(print(VariableExpression[variableName=v]); (v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v])))]
+Symbol Table: {a=(1, int), b=(2, int), v=100}
+Heap: {1=1, 2=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v])), print(VariableExpression[variableName=v])]
+Symbol Table: {a=(1, int), b=(2, int), v=100}
+Heap: {1=1, 2=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v])), print(VariableExpression[variableName=v])]
+Symbol Table: {a=(1, int), b=(2, int), v=100}
+Heap: {1=1, 2=2}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v]))]
+Symbol Table: {a=(1, int), b=(2, int), v=100}
+Heap: {1=1, 2=2}
+Output: [100]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [(v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200]); print(VariableExpression[variableName=v]))]
+Symbol Table: {a=(1, int), b=(2, int), v=100}
+Heap: {1=1, 2=2}
+Output: [100]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [print(VariableExpression[variableName=v]), v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200])]
+Symbol Table: {a=(1, int), b=(2, int), v=100}
+Heap: {1=1, 2=2}
+Output: [100]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [print(VariableExpression[variableName=v]), v = (BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a]) ? ConstantExpression[value=100] : ConstantExpression[value=200])]
+Symbol Table: {a=(1, int), b=(2, int), v=100}
+Heap: {1=1, 2=2}
+Output: [100]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [print(VariableExpression[variableName=v]), (IF(BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a])) THEN(v = ConstantExpression[value=100]) ELSE(v = ConstantExpression[value=200]))]
+Symbol Table: {a=(1, int), b=(2, int), v=100}
+Heap: {1=1, 2=2}
+Output: [100]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [print(VariableExpression[variableName=v]), (IF(BinaryOperatorExpression[operator=-, left=rH(VariableExpression[variableName=b]), right=ConstantExpression[value=2]] > rH(VariableExpression[variableName=a])) THEN(v = ConstantExpression[value=100]) ELSE(v = ConstantExpression[value=200]))]
+Symbol Table: {a=(1, int), b=(2, int), v=100}
+Heap: {1=1, 2=2}
+Output: [100]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [print(VariableExpression[variableName=v]), v = ConstantExpression[value=200]]
+Symbol Table: {a=(1, int), b=(2, int), v=100}
+Heap: {1=1, 2=2}
+Output: [100]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [print(VariableExpression[variableName=v]), v = ConstantExpression[value=200]]
+Symbol Table: {a=(1, int), b=(2, int), v=100}
+Heap: {1=1, 2=2}
+Output: [100]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [print(VariableExpression[variableName=v])]
+Symbol Table: {a=(1, int), b=(2, int), v=200}
+Heap: {1=1, 2=2}
+Output: [100]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: [print(VariableExpression[variableName=v])]
+Symbol Table: {a=(1, int), b=(2, int), v=200}
+Heap: {1=1, 2=2}
+Output: [100]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: []
+Symbol Table: {a=(1, int), b=(2, int), v=200}
+Heap: {1=1, 2=2}
+Output: [100, 200]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: []
+Symbol Table: {a=(1, int), b=(2, int), v=200}
+Heap: {1=1, 2=2}
+Output: [100, 200]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: []
+Symbol Table: {a=(1, int), b=(2, int), v=200}
+Heap: {1=1, 2=2}
+Output: [100, 200]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: []
+Symbol Table: {a=(1, int), b=(2, int), v=200}
+Heap: {1=1, 2=2}
+Output: [100, 200]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: []
+Symbol Table: {a=(1, int), b=(2, int), v=200}
+Heap: {1=1, 2=2}
+Output: [100, 200]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: []
+Symbol Table: {a=(1, int), b=(2, int), v=200}
+Heap: {1=1, 2=2}
+Output: [100, 200]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: []
+Symbol Table: {a=(1, int), b=(2, int), v=200}
+Heap: {1=1, 2=2}
+Output: [100, 200]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: []
+Symbol Table: {a=(1, int), b=(2, int), v=200}
+Heap: {1=1, 2=2}
+Output: [100, 200]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: []
+Symbol Table: {a=(1, int), b=(2, int), v=200}
+Heap: {1=1, 2=2}
+Output: [100, 200]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: []
+Symbol Table: {a=(1, int), b=(2, int), v=200}
+Heap: {1=1, 2=2}
+Output: [100, 200]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: []
+Symbol Table: {a=(1, int), b=(2, int), v=200}
+Heap: {1=1, 2=2}
+Output: [100, 200]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: []
+Symbol Table: {a=(1, int), b=(2, int), v=200}
+Heap: {1=1, 2=2}
+Output: [100, 200]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 1---
+Execution Stack: []
+Symbol Table: {a=(1, int), b=(2, int), v=200}
+Heap: {1=1, 2=2}
+Output: [100, 200]
+FileTable: []
+----------------------
+

@@ -1,0 +1,48 @@
+
+--- PROGRAM STATE ---
+Execution Stack: [(y = ConstantExpression[value=5]; print(VariableExpression[variableName=y]))]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=y]), y = ConstantExpression[value=5]]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(y = ConstantExpression[value=5]; print(VariableExpression[variableName=y]))]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=y]), y = ConstantExpression[value=5]]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [(y = ConstantExpression[value=5]; print(VariableExpression[variableName=y]))]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE ---
+Execution Stack: [print(VariableExpression[variableName=y]), y = ConstantExpression[value=5]]
+Symbol Table: {}
+Output: []
+FileTable: []
+----------------------
+

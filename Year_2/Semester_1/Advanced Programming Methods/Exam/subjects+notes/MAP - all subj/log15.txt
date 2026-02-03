@@ -1,0 +1,2714 @@
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int a;(int b;(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int b;(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))), int a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int b;(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))), int a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int b;(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))))]
+----------
+* symbolTable: 
+{a=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int b;(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))))]
+----------
+* symbolTable: 
+{a=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))), int b]
+----------
+* symbolTable: 
+{a=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))), int b]
+----------
+* symbolTable: 
+{a=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))]
+----------
+* symbolTable: 
+{a=0, b=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))]
+----------
+* symbolTable: 
+{a=0, b=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)), int c]
+----------
+* symbolTable: 
+{a=0, b=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)), int c]
+----------
+* symbolTable: 
+{a=0, b=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), (IF(a*10 = b*c) THEN((print(a);print(b))) ELSE((IF(a*10 = 10) THEN((print(100);print(200))) ELSE(print(300)))))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), (IF(a*10 = b*c) THEN((print(a);print(b))) ELSE((IF(a*10 = 10) THEN((print(100);print(200))) ELSE(print(300)))))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300)]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300)]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: [300]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int a;(int b;(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int b;(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))), int a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int b;(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))), int a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int b;(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))))]
+----------
+* symbolTable: 
+{a=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int b;(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))))]
+----------
+* symbolTable: 
+{a=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))), int b]
+----------
+* symbolTable: 
+{a=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))), int b]
+----------
+* symbolTable: 
+{a=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))]
+----------
+* symbolTable: 
+{a=0, b=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))]
+----------
+* symbolTable: 
+{a=0, b=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)), int c]
+----------
+* symbolTable: 
+{a=0, b=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)), int c]
+----------
+* symbolTable: 
+{a=0, b=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), (IF(a*10 = b*c) THEN((print(a);print(b))) ELSE((IF(a*10 = 10) THEN((print(100);print(200))) ELSE(print(300)))))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), (IF(a*10 = b*c) THEN((print(a);print(b))) ELSE((IF(a*10 = 10) THEN((print(100);print(200))) ELSE(print(300)))))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300)]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int a;(int b;(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int b;(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))), int a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int b;(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))), int a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int b;(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))))]
+----------
+* symbolTable: 
+{a=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int b;(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))))]
+----------
+* symbolTable: 
+{a=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))), int b]
+----------
+* symbolTable: 
+{a=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))), int b]
+----------
+* symbolTable: 
+{a=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))]
+----------
+* symbolTable: 
+{a=0, b=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))]
+----------
+* symbolTable: 
+{a=0, b=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)), int c]
+----------
+* symbolTable: 
+{a=0, b=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)), int c]
+----------
+* symbolTable: 
+{a=0, b=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), (IF(a*10 == b*c) THEN((print(a);print(b))) ELSE((IF(a*10 == 10) THEN((print(100);print(200))) ELSE(print(300)))))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), (IF(a*10 == b*c) THEN((print(a);print(b))) ELSE((IF(a*10 == 10) THEN((print(100);print(200))) ELSE(print(300)))))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), (print(a);print(b))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), (print(a);print(b))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), print(b), print(a)]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), print(b), print(a)]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), print(b)]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), print(b)]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300)]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: [0, 0]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300)]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: [0, 0]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: [0, 0, 300]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int a;(int b;(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int b;(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))), int a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int b;(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))), int a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int b;(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))))]
+----------
+* symbolTable: 
+{a=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int b;(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))))]
+----------
+* symbolTable: 
+{a=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))), int b]
+----------
+* symbolTable: 
+{a=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))), int b]
+----------
+* symbolTable: 
+{a=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))]
+----------
+* symbolTable: 
+{a=0, b=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int c;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))]
+----------
+* symbolTable: 
+{a=0, b=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)), int c]
+----------
+* symbolTable: 
+{a=0, b=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)), int c]
+----------
+* symbolTable: 
+{a=0, b=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), (IF(a*10 == b*c) THEN((print(a);print(b))) ELSE((IF(a*10 == 10) THEN((print(100);print(200))) ELSE(print(300)))))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int a;(int b;(int c;(a=1;(b=2;(c=5;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))))))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int b;(int c;(a=1;(b=2;(c=5;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))))))), int a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int b;(int c;(a=1;(b=2;(c=5;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))))))), int a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int b;(int c;(a=1;(b=2;(c=5;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))))))]
+----------
+* symbolTable: 
+{a=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int b;(int c;(a=1;(b=2;(c=5;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))))))]
+----------
+* symbolTable: 
+{a=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int c;(a=1;(b=2;(c=5;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))))), int b]
+----------
+* symbolTable: 
+{a=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int c;(a=1;(b=2;(c=5;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))))), int b]
+----------
+* symbolTable: 
+{a=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int c;(a=1;(b=2;(c=5;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))))))]
+----------
+* symbolTable: 
+{a=0, b=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int c;(a=1;(b=2;(c=5;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))))))]
+----------
+* symbolTable: 
+{a=0, b=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=1;(b=2;(c=5;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))))), int c]
+----------
+* symbolTable: 
+{a=0, b=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=1;(b=2;(c=5;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))))), int c]
+----------
+* symbolTable: 
+{a=0, b=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=1;(b=2;(c=5;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=1;(b=2;(c=5;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))))]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(b=2;(c=5;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))), a=1]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(b=2;(c=5;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))), a=1]
+----------
+* symbolTable: 
+{a=0, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(b=2;(c=5;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))))]
+----------
+* symbolTable: 
+{a=1, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(b=2;(c=5;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))))]
+----------
+* symbolTable: 
+{a=1, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(c=5;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))), b=2]
+----------
+* symbolTable: 
+{a=1, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(c=5;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))), b=2]
+----------
+* symbolTable: 
+{a=1, b=0, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(c=5;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))]
+----------
+* symbolTable: 
+{a=1, b=2, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(c=5;(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)))]
+----------
+* symbolTable: 
+{a=1, b=2, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)), c=5]
+----------
+* symbolTable: 
+{a=1, b=2, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300)), c=5]
+----------
+* symbolTable: 
+{a=1, b=2, c=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))]
+----------
+* symbolTable: 
+{a=1, b=2, c=5}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300));print(300))]
+----------
+* symbolTable: 
+{a=1, b=2, c=5}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300))]
+----------
+* symbolTable: 
+{a=1, b=2, c=5}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), switch(a*10)( case b*c: (print(a);print(b))) ( case 10: (print(100);print(200))) default: print(300))]
+----------
+* symbolTable: 
+{a=1, b=2, c=5}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), (IF(a*10 == b*c) THEN((print(a);print(b))) ELSE((IF(a*10 == 10) THEN((print(100);print(200))) ELSE(print(300)))))]
+----------
+* symbolTable: 
+{a=1, b=2, c=5}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), (IF(a*10 == b*c) THEN((print(a);print(b))) ELSE((IF(a*10 == 10) THEN((print(100);print(200))) ELSE(print(300)))))]
+----------
+* symbolTable: 
+{a=1, b=2, c=5}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), (print(a);print(b))]
+----------
+* symbolTable: 
+{a=1, b=2, c=5}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), (print(a);print(b))]
+----------
+* symbolTable: 
+{a=1, b=2, c=5}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), print(b), print(a)]
+----------
+* symbolTable: 
+{a=1, b=2, c=5}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), print(b), print(a)]
+----------
+* symbolTable: 
+{a=1, b=2, c=5}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), print(b)]
+----------
+* symbolTable: 
+{a=1, b=2, c=5}
+----------
+* out: [1]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300), print(b)]
+----------
+* symbolTable: 
+{a=1, b=2, c=5}
+----------
+* out: [1]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300)]
+----------
+* symbolTable: 
+{a=1, b=2, c=5}
+----------
+* out: [1, 2]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(300)]
+----------
+* symbolTable: 
+{a=1, b=2, c=5}
+----------
+* out: [1, 2]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{a=1, b=2, c=5}
+----------
+* out: [1, 2, 300]
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+
+

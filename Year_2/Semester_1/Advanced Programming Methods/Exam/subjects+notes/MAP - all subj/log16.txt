@@ -1,0 +1,3188 @@
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) v1;(int cnt;(new(v1,1);(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))))))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int cnt;(new(v1,1);(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))))))), Ref(int) v1]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int cnt;(new(v1,1);(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))))))), Ref(int) v1]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int cnt;(new(v1,1);(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt))))))))]
+----------
+* symbolTable: 
+{v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int cnt;(new(v1,1);(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt))))))))]
+----------
+* symbolTable: 
+{v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v1,1);(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt))))))), int cnt]
+----------
+* symbolTable: 
+{v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v1,1);(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt))))))), int cnt]
+----------
+* symbolTable: 
+{v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v1,1);(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))))))]
+----------
+* symbolTable: 
+{cnt=0, v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v1,1);(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))))))]
+----------
+* symbolTable: 
+{cnt=0, v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))))), new(v1,1)]
+----------
+* symbolTable: 
+{cnt=0, v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))))), new(v1,1)]
+----------
+* symbolTable: 
+{cnt=0, v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt))))))]
+----------
+* symbolTable: 
+{cnt=0, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt))))))]
+----------
+* symbolTable: 
+{cnt=0, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt))))), createCountSemaphore(cnt,readHeap(v1))]
+----------
+* symbolTable: 
+{cnt=0, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt))))), createCountSemaphore(cnt,readHeap(v1))]
+----------
+* symbolTable: 
+{cnt=0, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))), fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))), fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt))), fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt))), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt))), fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt))), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) v1;(int cnt;(new(v1,1);(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))))))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int cnt;(new(v1,1);(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))))))), Ref(int) v1]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int cnt;(new(v1,1);(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))))))), Ref(int) v1]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int cnt;(new(v1,1);(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt))))))))]
+----------
+* symbolTable: 
+{v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int cnt;(new(v1,1);(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt))))))))]
+----------
+* symbolTable: 
+{v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v1,1);(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt))))))), int cnt]
+----------
+* symbolTable: 
+{v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v1,1);(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt))))))), int cnt]
+----------
+* symbolTable: 
+{v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v1,1);(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))))))]
+----------
+* symbolTable: 
+{cnt=0, v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v1,1);(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))))))]
+----------
+* symbolTable: 
+{cnt=0, v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))))), new(v1,1)]
+----------
+* symbolTable: 
+{cnt=0, v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))))), new(v1,1)]
+----------
+* symbolTable: 
+{cnt=0, v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt))))))]
+----------
+* symbolTable: 
+{cnt=0, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(createCountSemaphore(cnt,readHeap(v1));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt))))))]
+----------
+* symbolTable: 
+{cnt=0, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt))))), createCountSemaphore(cnt,readHeap(v1))]
+----------
+* symbolTable: 
+{cnt=0, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt))))), createCountSemaphore(cnt,readHeap(v1))]
+----------
+* symbolTable: 
+{cnt=0, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))));(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))), fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))), fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))));(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt))), fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt))), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt))), fork((countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt))), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(countAcquire (cnt);(print(readHeap(v1)-1);countRelease (cnt)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));countRelease (cnt)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(countAcquire (cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);countRelease (cnt)), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(print(readHeap(v1));countRelease (cnt)), writeHeap(v1, readHeap(v1)*10)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt))), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);countRelease (cnt)), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(print(readHeap(v1));countRelease (cnt)), writeHeap(v1, readHeap(v1)*10)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt))), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);countRelease (cnt)), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(print(readHeap(v1));countRelease (cnt))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt))), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);countRelease (cnt)), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(print(readHeap(v1));countRelease (cnt))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt))), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);countRelease (cnt)), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[countRelease (cnt), print(readHeap(v1))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt))), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);countRelease (cnt)), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[countRelease (cnt), print(readHeap(v1))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt))), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);countRelease (cnt)), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[countRelease (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt))), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);countRelease (cnt)), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[countRelease (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt))), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[2]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);countRelease (cnt)), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt))), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);countRelease (cnt)), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt))), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);countRelease (cnt))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[1]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt))), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[1]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);countRelease (cnt))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[1]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt))), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[1]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[countRelease (cnt), print(readHeap(v1)-1)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[1]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt))), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[1]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[countRelease (cnt), print(readHeap(v1)-1)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[1]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt))), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[1]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[countRelease (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10, 9]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[1]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt))), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10, 9]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[1]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[countRelease (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10, 9]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[1]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt))), countAcquire (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10, 9]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[1]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10, 9]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[3]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10, 9]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[3]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10, 9]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[3]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)), writeHeap(v1, readHeap(v1)*10)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10, 9]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[3]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt)), writeHeap(v1, readHeap(v1)*10)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10, 9]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 10
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[3]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10, 9]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 100
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[3]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));countRelease (cnt))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10, 9]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 100
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[3]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[countRelease (cnt), (writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10, 9]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 100
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[3]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[countRelease (cnt), (writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10, 9]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 100
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[3]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[countRelease (cnt), print(readHeap(v1)), writeHeap(v1, readHeap(v1)*2)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10, 9]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 100
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[3]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[countRelease (cnt), print(readHeap(v1)), writeHeap(v1, readHeap(v1)*2)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10, 9]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 100
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[3]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[countRelease (cnt), print(readHeap(v1))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10, 9]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 200
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[3]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[countRelease (cnt), print(readHeap(v1))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10, 9]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 200
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[3]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[countRelease (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10, 9, 200]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 200
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[3]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[countRelease (cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10, 9, 200]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 200
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[3]
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [10, 9, 200]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 200
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 1 -> 1=[]
+
+----------
+
+

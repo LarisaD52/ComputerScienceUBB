@@ -1,0 +1,5168 @@
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) v1;(int cnt;(new(v1,2);(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009))))))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int cnt;(new(v1,2);(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009))))))), Ref(int) v1]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int cnt;(new(v1,2);(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009))))))), Ref(int) v1]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int cnt;(new(v1,2);(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009)))))))]
+----------
+* symbolTable: 
+{v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int cnt;(new(v1,2);(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009)))))))]
+----------
+* symbolTable: 
+{v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v1,2);(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009)))))), int cnt]
+----------
+* symbolTable: 
+{v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v1,2);(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009)))))), int cnt]
+----------
+* symbolTable: 
+{v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v1,2);(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009))))))]
+----------
+* symbolTable: 
+{cnt=0, v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v1,2);(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009))))))]
+----------
+* symbolTable: 
+{cnt=0, v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009))))), new(v1,2)]
+----------
+* symbolTable: 
+{cnt=0, v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009))))), new(v1,2)]
+----------
+* symbolTable: 
+{cnt=0, v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009)))))]
+----------
+* symbolTable: 
+{cnt=0, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009)))))]
+----------
+* symbolTable: 
+{cnt=0, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009)))), newToySemaphore (cnt, readHeap(v1), 1)]
+----------
+* symbolTable: 
+{cnt=0, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009)))), newToySemaphore (cnt, readHeap(v1), 1)]
+----------
+* symbolTable: 
+{cnt=0, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009))), fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009))), fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009)), fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009)), fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094), writeHeap(v1, readHeap(v1)*10)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094), writeHeap(v1, readHeap(v1)*10)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(print(readHeap(v1));model.Statements.ReleaseToyStatement@10d11094)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@10d11094, print(readHeap(v1))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@10d11094, print(readHeap(v1))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@10d11094]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@10d11094]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@63e47009)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@63e47009, print(readHeap(v1)-1)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@63e47009, print(readHeap(v1)-1)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@63e47009]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@63e47009]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8), writeHeap(v1, readHeap(v1)*10)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8), writeHeap(v1, readHeap(v1)*10)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 200
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@358a38a8)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 200
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@358a38a8, (writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 200
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@358a38a8, (writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 200
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@358a38a8, print(readHeap(v1)), writeHeap(v1, readHeap(v1)*2)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 200
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@358a38a8, print(readHeap(v1)), writeHeap(v1, readHeap(v1)*2)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 200
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@358a38a8, print(readHeap(v1))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 400
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@358a38a8, print(readHeap(v1))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 400
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@358a38a8]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19, 400]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 400
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@358a38a8]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19, 400]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 400
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19, 400]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 400
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@3b8fcdea
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) v1;(int cnt;(new(v1,2);(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668))))))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int cnt;(new(v1,2);(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668))))))), Ref(int) v1]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int cnt;(new(v1,2);(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668))))))), Ref(int) v1]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int cnt;(new(v1,2);(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668)))))))]
+----------
+* symbolTable: 
+{v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int cnt;(new(v1,2);(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668)))))))]
+----------
+* symbolTable: 
+{v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v1,2);(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668)))))), int cnt]
+----------
+* symbolTable: 
+{v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v1,2);(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668)))))), int cnt]
+----------
+* symbolTable: 
+{v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v1,2);(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668))))))]
+----------
+* symbolTable: 
+{cnt=0, v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v1,2);(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668))))))]
+----------
+* symbolTable: 
+{cnt=0, v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668))))), new(v1,2)]
+----------
+* symbolTable: 
+{cnt=0, v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668))))), new(v1,2)]
+----------
+* symbolTable: 
+{cnt=0, v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668)))))]
+----------
+* symbolTable: 
+{cnt=0, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(newToySemaphore (cnt, readHeap(v1), 1);(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668)))))]
+----------
+* symbolTable: 
+{cnt=0, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668)))), newToySemaphore (cnt, readHeap(v1), 1)]
+----------
+* symbolTable: 
+{cnt=0, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668)))), newToySemaphore (cnt, readHeap(v1), 1)]
+----------
+* symbolTable: 
+{cnt=0, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073))));(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668))), fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668))), fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))));(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668)), fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668)), fork((ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(ToyAcquire(cnt);(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(ToyAcquire(cnt);(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073), writeHeap(v1, readHeap(v1)*10)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073), writeHeap(v1, readHeap(v1)*10)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 2
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(print(readHeap(v1));model.Statements.ReleaseToyStatement@40116073)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@40116073, print(readHeap(v1))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@40116073, print(readHeap(v1))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@40116073]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@40116073]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1)-1);model.Statements.ReleaseToyStatement@5d467668)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@5d467668, print(readHeap(v1)-1)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@5d467668, print(readHeap(v1)-1)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@5d467668]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@5d467668]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4)), ToyAcquire(cnt)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)*10);((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4), writeHeap(v1, readHeap(v1)*10)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4), writeHeap(v1, readHeap(v1)*10)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 20
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 200
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[((writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)));model.Statements.ReleaseToyStatement@5c4f94c4)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 200
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@5c4f94c4, (writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 200
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@5c4f94c4, (writeHeap(v1, readHeap(v1)*2);print(readHeap(v1)))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 200
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@5c4f94c4, print(readHeap(v1)), writeHeap(v1, readHeap(v1)*2)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 200
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@5c4f94c4, print(readHeap(v1)), writeHeap(v1, readHeap(v1)*2)]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 200
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@5c4f94c4, print(readHeap(v1))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 400
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@5c4f94c4, print(readHeap(v1))]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 400
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@5c4f94c4]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19, 400]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 400
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[model.Statements.ReleaseToyStatement@5c4f94c4]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19, 400]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 400
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{cnt=1, v1=(1, int)}
+----------
+* out: [20, 19, 400]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 400
+
+----------
+* lockTable: 
+----------
+* latchTable: 
+----------
+* countSemaphoreTable: 
+----------
+* toySemaphoreTable: 1 -> model.Triplet@48c4f043
+
+----------
+
+

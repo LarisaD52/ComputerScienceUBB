@@ -1,0 +1,342 @@
+
+--- PROGRAM STATE 11---
+Execution Stack: [(int a; (int b; (int c; (a = ConstantExpression[value=1]; (b = ConstantExpression[value=2]; (c = ConstantExpression[value=5]; (model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300]))))))))]
+Symbol Table: {}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(int b; (int c; (a = ConstantExpression[value=1]; (b = ConstantExpression[value=2]; (c = ConstantExpression[value=5]; (model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300]))))))), int a]
+Symbol Table: {}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(int b; (int c; (a = ConstantExpression[value=1]; (b = ConstantExpression[value=2]; (c = ConstantExpression[value=5]; (model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300]))))))), int a]
+Symbol Table: {}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(int b; (int c; (a = ConstantExpression[value=1]; (b = ConstantExpression[value=2]; (c = ConstantExpression[value=5]; (model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300])))))))]
+Symbol Table: {a=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(int b; (int c; (a = ConstantExpression[value=1]; (b = ConstantExpression[value=2]; (c = ConstantExpression[value=5]; (model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300])))))))]
+Symbol Table: {a=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(int c; (a = ConstantExpression[value=1]; (b = ConstantExpression[value=2]; (c = ConstantExpression[value=5]; (model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300])))))), int b]
+Symbol Table: {a=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(int c; (a = ConstantExpression[value=1]; (b = ConstantExpression[value=2]; (c = ConstantExpression[value=5]; (model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300])))))), int b]
+Symbol Table: {a=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(int c; (a = ConstantExpression[value=1]; (b = ConstantExpression[value=2]; (c = ConstantExpression[value=5]; (model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300]))))))]
+Symbol Table: {a=0, b=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(int c; (a = ConstantExpression[value=1]; (b = ConstantExpression[value=2]; (c = ConstantExpression[value=5]; (model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300]))))))]
+Symbol Table: {a=0, b=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(a = ConstantExpression[value=1]; (b = ConstantExpression[value=2]; (c = ConstantExpression[value=5]; (model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300]))))), int c]
+Symbol Table: {a=0, b=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(a = ConstantExpression[value=1]; (b = ConstantExpression[value=2]; (c = ConstantExpression[value=5]; (model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300]))))), int c]
+Symbol Table: {a=0, b=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(a = ConstantExpression[value=1]; (b = ConstantExpression[value=2]; (c = ConstantExpression[value=5]; (model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300])))))]
+Symbol Table: {a=0, b=0, c=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(a = ConstantExpression[value=1]; (b = ConstantExpression[value=2]; (c = ConstantExpression[value=5]; (model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300])))))]
+Symbol Table: {a=0, b=0, c=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(b = ConstantExpression[value=2]; (c = ConstantExpression[value=5]; (model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300])))), a = ConstantExpression[value=1]]
+Symbol Table: {a=0, b=0, c=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(b = ConstantExpression[value=2]; (c = ConstantExpression[value=5]; (model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300])))), a = ConstantExpression[value=1]]
+Symbol Table: {a=0, b=0, c=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(b = ConstantExpression[value=2]; (c = ConstantExpression[value=5]; (model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300]))))]
+Symbol Table: {a=1, b=0, c=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(b = ConstantExpression[value=2]; (c = ConstantExpression[value=5]; (model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300]))))]
+Symbol Table: {a=1, b=0, c=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(c = ConstantExpression[value=5]; (model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300]))), b = ConstantExpression[value=2]]
+Symbol Table: {a=1, b=0, c=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(c = ConstantExpression[value=5]; (model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300]))), b = ConstantExpression[value=2]]
+Symbol Table: {a=1, b=0, c=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(c = ConstantExpression[value=5]; (model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300])))]
+Symbol Table: {a=1, b=2, c=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(c = ConstantExpression[value=5]; (model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300])))]
+Symbol Table: {a=1, b=2, c=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300])), c = ConstantExpression[value=5]]
+Symbol Table: {a=1, b=2, c=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300])), c = ConstantExpression[value=5]]
+Symbol Table: {a=1, b=2, c=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300]))]
+Symbol Table: {a=1, b=2, c=5}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(model.statement.SwitchStatement@4769b07b; print(ConstantExpression[value=300]))]
+Symbol Table: {a=1, b=2, c=5}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(ConstantExpression[value=300]), model.statement.SwitchStatement@4769b07b]
+Symbol Table: {a=1, b=2, c=5}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(ConstantExpression[value=300]), model.statement.SwitchStatement@4769b07b]
+Symbol Table: {a=1, b=2, c=5}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(ConstantExpression[value=300]), (IF(BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=a], right=ConstantExpression[value=10]] == BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=b], right=VariableExpression[variableName=c]]) THEN((print(VariableExpression[variableName=a]); print(VariableExpression[variableName=b]))) ELSE((IF(BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=a], right=ConstantExpression[value=10]] == ConstantExpression[value=10]) THEN((print(ConstantExpression[value=100]); print(ConstantExpression[value=200]))) ELSE(print(ConstantExpression[value=300])))))]
+Symbol Table: {a=1, b=2, c=5}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(ConstantExpression[value=300]), (IF(BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=a], right=ConstantExpression[value=10]] == BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=b], right=VariableExpression[variableName=c]]) THEN((print(VariableExpression[variableName=a]); print(VariableExpression[variableName=b]))) ELSE((IF(BinaryOperatorExpression[operator=*, left=VariableExpression[variableName=a], right=ConstantExpression[value=10]] == ConstantExpression[value=10]) THEN((print(ConstantExpression[value=100]); print(ConstantExpression[value=200]))) ELSE(print(ConstantExpression[value=300])))))]
+Symbol Table: {a=1, b=2, c=5}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(ConstantExpression[value=300]), (print(VariableExpression[variableName=a]); print(VariableExpression[variableName=b]))]
+Symbol Table: {a=1, b=2, c=5}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(ConstantExpression[value=300]), (print(VariableExpression[variableName=a]); print(VariableExpression[variableName=b]))]
+Symbol Table: {a=1, b=2, c=5}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(ConstantExpression[value=300]), print(VariableExpression[variableName=b]), print(VariableExpression[variableName=a])]
+Symbol Table: {a=1, b=2, c=5}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(ConstantExpression[value=300]), print(VariableExpression[variableName=b]), print(VariableExpression[variableName=a])]
+Symbol Table: {a=1, b=2, c=5}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(ConstantExpression[value=300]), print(VariableExpression[variableName=b])]
+Symbol Table: {a=1, b=2, c=5}
+Heap: {}
+Output: [1]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(ConstantExpression[value=300]), print(VariableExpression[variableName=b])]
+Symbol Table: {a=1, b=2, c=5}
+Heap: {}
+Output: [1]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(ConstantExpression[value=300])]
+Symbol Table: {a=1, b=2, c=5}
+Heap: {}
+Output: [1, 2]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(ConstantExpression[value=300])]
+Symbol Table: {a=1, b=2, c=5}
+Heap: {}
+Output: [1, 2]
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: []
+Symbol Table: {a=1, b=2, c=5}
+Heap: {}
+Output: [1, 2, 300]
+FileTable: []
+----------------------
+

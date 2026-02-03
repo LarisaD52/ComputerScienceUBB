@@ -1,0 +1,1116 @@
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) a;(Ref(int) b;(int v;(new(a,0);(new(b,0);(writeHeap(a, 1);(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v)))))))))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) b;(int v;(new(a,0);(new(b,0);(writeHeap(a, 1);(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v)))))))))), Ref(int) a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) b;(int v;(new(a,0);(new(b,0);(writeHeap(a, 1);(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v)))))))))), Ref(int) a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) b;(int v;(new(a,0);(new(b,0);(writeHeap(a, 1);(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v))))))))))]
+----------
+* symbolTable: 
+{a=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) b;(int v;(new(a,0);(new(b,0);(writeHeap(a, 1);(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v))))))))))]
+----------
+* symbolTable: 
+{a=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;(new(a,0);(new(b,0);(writeHeap(a, 1);(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v))))))))), Ref(int) b]
+----------
+* symbolTable: 
+{a=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;(new(a,0);(new(b,0);(writeHeap(a, 1);(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v))))))))), Ref(int) b]
+----------
+* symbolTable: 
+{a=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;(new(a,0);(new(b,0);(writeHeap(a, 1);(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v)))))))))]
+----------
+* symbolTable: 
+{a=(0, int), b=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;(new(a,0);(new(b,0);(writeHeap(a, 1);(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v)))))))))]
+----------
+* symbolTable: 
+{a=(0, int), b=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(a,0);(new(b,0);(writeHeap(a, 1);(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v)))))))), int v]
+----------
+* symbolTable: 
+{a=(0, int), b=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(a,0);(new(b,0);(writeHeap(a, 1);(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v)))))))), int v]
+----------
+* symbolTable: 
+{a=(0, int), b=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(a,0);(new(b,0);(writeHeap(a, 1);(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v))))))))]
+----------
+* symbolTable: 
+{a=(0, int), b=(0, int), v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(a,0);(new(b,0);(writeHeap(a, 1);(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v))))))))]
+----------
+* symbolTable: 
+{a=(0, int), b=(0, int), v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(b,0);(writeHeap(a, 1);(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v))))))), new(a,0)]
+----------
+* symbolTable: 
+{a=(0, int), b=(0, int), v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(b,0);(writeHeap(a, 1);(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v))))))), new(a,0)]
+----------
+* symbolTable: 
+{a=(0, int), b=(0, int), v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(b,0);(writeHeap(a, 1);(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v)))))))]
+----------
+* symbolTable: 
+{a=(1, int), b=(0, int), v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 0
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(b,0);(writeHeap(a, 1);(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v)))))))]
+----------
+* symbolTable: 
+{a=(1, int), b=(0, int), v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 0
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(writeHeap(a, 1);(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v)))))), new(b,0)]
+----------
+* symbolTable: 
+{a=(1, int), b=(0, int), v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 0
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(writeHeap(a, 1);(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v)))))), new(b,0)]
+----------
+* symbolTable: 
+{a=(1, int), b=(0, int), v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 0
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(writeHeap(a, 1);(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v))))))]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 0
+2 -> 0
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(writeHeap(a, 1);(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v))))))]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 0
+2 -> 0
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v))))), writeHeap(a, 1)]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 0
+2 -> 0
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v))))), writeHeap(a, 1)]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 0
+2 -> 0
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v)))))]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 0
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(writeHeap(b, 2);(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v)))))]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 0
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v)))), writeHeap(b, 2)]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 0
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v)))), writeHeap(b, 2)]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 0
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v))))]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 2
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(v=readHeap(a) < readHeap(b)?100:200;(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v))))]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 2
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v))), v=readHeap(a) < readHeap(b)?100:200]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 2
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v))), v=readHeap(a) < readHeap(b)?100:200]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 2
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v))), (IF(readHeap(a) < readHeap(b)) THEN(v=100) ELSE(v=200))]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 2
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v))), (IF(readHeap(a) < readHeap(b)) THEN(v=100) ELSE(v=200))]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 2
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v))), v=100]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 2
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v))), v=100]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 2
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v)))]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=100}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 2
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(v);(v=readHeap(b)-2 > readHeap(a)?100:200;print(v)))]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=100}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 2
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(v=readHeap(b)-2 > readHeap(a)?100:200;print(v)), print(v)]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=100}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 2
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(v=readHeap(b)-2 > readHeap(a)?100:200;print(v)), print(v)]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=100}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 2
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(v=readHeap(b)-2 > readHeap(a)?100:200;print(v))]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=100}
+----------
+* out: [100]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 2
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(v=readHeap(b)-2 > readHeap(a)?100:200;print(v))]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=100}
+----------
+* out: [100]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 2
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), v=readHeap(b)-2 > readHeap(a)?100:200]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=100}
+----------
+* out: [100]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 2
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), v=readHeap(b)-2 > readHeap(a)?100:200]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=100}
+----------
+* out: [100]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 2
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), (IF(readHeap(b)-2 > readHeap(a)) THEN(v=100) ELSE(v=200))]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=100}
+----------
+* out: [100]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 2
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), (IF(readHeap(b)-2 > readHeap(a)) THEN(v=100) ELSE(v=200))]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=100}
+----------
+* out: [100]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 2
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), v=200]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=100}
+----------
+* out: [100]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 2
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), v=200]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=100}
+----------
+* out: [100]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 2
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v)]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=200}
+----------
+* out: [100]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 2
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v)]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=200}
+----------
+* out: [100]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 2
+
+----------
+* lockTable: 
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{a=(1, int), b=(2, int), v=200}
+----------
+* out: [100, 200]
+----------
+* fileTable={}
+----------
+* heap: 1 -> 1
+2 -> 2
+
+----------
+* lockTable: 
+----------
+
+

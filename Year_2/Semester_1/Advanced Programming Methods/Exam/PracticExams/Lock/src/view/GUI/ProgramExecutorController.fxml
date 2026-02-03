@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="430.0" prefWidth="547.0" spacing="10.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.GUI.ProgramExecutorController">
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+    </padding>
+    <children>
+        <Label text="Number of Program States:" />
+        <TextField fx:id="numberOfProgramStatesTextField" editable="false" />
+
+        <GridPane hgap="10" vgap="10" VBox.vgrow="ALWAYS">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+
+
+            </rowConstraints>
+            <children>
+                <VBox GridPane.columnIndex="0" GridPane.rowIndex="0">
+                    <Label text="Heap Table" />
+                    <TableView fx:id="heapTableView">
+                        <columns>
+                            <TableColumn fx:id="addressColumn" text="Address" />
+                            <TableColumn fx:id="valueColumn" text="Value" />
+                        </columns>
+                    </TableView>
+                </VBox>
+                <VBox GridPane.columnIndex="1" GridPane.rowIndex="0">
+                    <Label text="Output" />
+                    <ListView fx:id="outputListView" />
+                </VBox>
+                <VBox GridPane.columnIndex="0" GridPane.rowIndex="1">
+                    <Label text="File Table" />
+                    <ListView fx:id="fileTableListView" />
+                </VBox>
+                <VBox GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <Label text="PrgState IDs" />
+                    <ListView fx:id="programStateIdentifiersListView" />
+                </VBox>
+                <VBox GridPane.columnIndex="0" GridPane.rowIndex="2">
+                    <Label text="Symbol Table" />
+                    <TableView fx:id="symbolTableView">
+                        <columns>
+                            <TableColumn fx:id="variableNameColumn" text="Variable" />
+                            <TableColumn fx:id="variableValueColumn" text="Value" />
+                        </columns>
+                    </TableView>
+                </VBox>
+                <VBox GridPane.columnIndex="1" GridPane.rowIndex="2">
+                    <Label text="ExeStack" />
+                    <ListView fx:id="executionStackListView" />
+                </VBox>
+
+
+                <VBox GridPane.columnIndex="1" GridPane.rowIndex="3">
+                    <Label text="Lock Table" />
+                    <TableView fx:id="lockTableView">
+                        <columns>
+                            <TableColumn fx:id="lockLocationColumn" text="Location"/>
+                            <TableColumn fx:id="lockValueColumn" text="Value"/>
+                        </columns>
+                    </TableView>
+                </VBox>
+
+
+            </children>
+        </GridPane>
+        <Button fx:id="runOneStepButton" maxWidth="Infinity" onAction="#runOneStep" text="Run One Step" />
+    </children>
+</VBox>

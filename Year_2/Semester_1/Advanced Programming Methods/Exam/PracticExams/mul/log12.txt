@@ -1,0 +1,180 @@
+
+--- PROGRAM STATE 11---
+Execution Stack: [(int v1; (int v2; (v1 = ConstantExpression[value=2]; (v2 = ConstantExpression[value=3]; (IF(VariableExpression[variableName=v1] != ConstantExpression[value=0]) THEN(print(MUL(VariableExpression[variableName=v1],VariableExpression[variableName=v2]))) ELSE(print(VariableExpression[variableName=v1])))))))]
+Symbol Table: {}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(int v2; (v1 = ConstantExpression[value=2]; (v2 = ConstantExpression[value=3]; (IF(VariableExpression[variableName=v1] != ConstantExpression[value=0]) THEN(print(MUL(VariableExpression[variableName=v1],VariableExpression[variableName=v2]))) ELSE(print(VariableExpression[variableName=v1])))))), int v1]
+Symbol Table: {}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(int v2; (v1 = ConstantExpression[value=2]; (v2 = ConstantExpression[value=3]; (IF(VariableExpression[variableName=v1] != ConstantExpression[value=0]) THEN(print(MUL(VariableExpression[variableName=v1],VariableExpression[variableName=v2]))) ELSE(print(VariableExpression[variableName=v1])))))), int v1]
+Symbol Table: {}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(int v2; (v1 = ConstantExpression[value=2]; (v2 = ConstantExpression[value=3]; (IF(VariableExpression[variableName=v1] != ConstantExpression[value=0]) THEN(print(MUL(VariableExpression[variableName=v1],VariableExpression[variableName=v2]))) ELSE(print(VariableExpression[variableName=v1]))))))]
+Symbol Table: {v1=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(int v2; (v1 = ConstantExpression[value=2]; (v2 = ConstantExpression[value=3]; (IF(VariableExpression[variableName=v1] != ConstantExpression[value=0]) THEN(print(MUL(VariableExpression[variableName=v1],VariableExpression[variableName=v2]))) ELSE(print(VariableExpression[variableName=v1]))))))]
+Symbol Table: {v1=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(v1 = ConstantExpression[value=2]; (v2 = ConstantExpression[value=3]; (IF(VariableExpression[variableName=v1] != ConstantExpression[value=0]) THEN(print(MUL(VariableExpression[variableName=v1],VariableExpression[variableName=v2]))) ELSE(print(VariableExpression[variableName=v1]))))), int v2]
+Symbol Table: {v1=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(v1 = ConstantExpression[value=2]; (v2 = ConstantExpression[value=3]; (IF(VariableExpression[variableName=v1] != ConstantExpression[value=0]) THEN(print(MUL(VariableExpression[variableName=v1],VariableExpression[variableName=v2]))) ELSE(print(VariableExpression[variableName=v1]))))), int v2]
+Symbol Table: {v1=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(v1 = ConstantExpression[value=2]; (v2 = ConstantExpression[value=3]; (IF(VariableExpression[variableName=v1] != ConstantExpression[value=0]) THEN(print(MUL(VariableExpression[variableName=v1],VariableExpression[variableName=v2]))) ELSE(print(VariableExpression[variableName=v1])))))]
+Symbol Table: {v1=0, v2=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(v1 = ConstantExpression[value=2]; (v2 = ConstantExpression[value=3]; (IF(VariableExpression[variableName=v1] != ConstantExpression[value=0]) THEN(print(MUL(VariableExpression[variableName=v1],VariableExpression[variableName=v2]))) ELSE(print(VariableExpression[variableName=v1])))))]
+Symbol Table: {v1=0, v2=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(v2 = ConstantExpression[value=3]; (IF(VariableExpression[variableName=v1] != ConstantExpression[value=0]) THEN(print(MUL(VariableExpression[variableName=v1],VariableExpression[variableName=v2]))) ELSE(print(VariableExpression[variableName=v1])))), v1 = ConstantExpression[value=2]]
+Symbol Table: {v1=0, v2=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(v2 = ConstantExpression[value=3]; (IF(VariableExpression[variableName=v1] != ConstantExpression[value=0]) THEN(print(MUL(VariableExpression[variableName=v1],VariableExpression[variableName=v2]))) ELSE(print(VariableExpression[variableName=v1])))), v1 = ConstantExpression[value=2]]
+Symbol Table: {v1=0, v2=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(v2 = ConstantExpression[value=3]; (IF(VariableExpression[variableName=v1] != ConstantExpression[value=0]) THEN(print(MUL(VariableExpression[variableName=v1],VariableExpression[variableName=v2]))) ELSE(print(VariableExpression[variableName=v1]))))]
+Symbol Table: {v1=2, v2=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(v2 = ConstantExpression[value=3]; (IF(VariableExpression[variableName=v1] != ConstantExpression[value=0]) THEN(print(MUL(VariableExpression[variableName=v1],VariableExpression[variableName=v2]))) ELSE(print(VariableExpression[variableName=v1]))))]
+Symbol Table: {v1=2, v2=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(IF(VariableExpression[variableName=v1] != ConstantExpression[value=0]) THEN(print(MUL(VariableExpression[variableName=v1],VariableExpression[variableName=v2]))) ELSE(print(VariableExpression[variableName=v1]))), v2 = ConstantExpression[value=3]]
+Symbol Table: {v1=2, v2=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(IF(VariableExpression[variableName=v1] != ConstantExpression[value=0]) THEN(print(MUL(VariableExpression[variableName=v1],VariableExpression[variableName=v2]))) ELSE(print(VariableExpression[variableName=v1]))), v2 = ConstantExpression[value=3]]
+Symbol Table: {v1=2, v2=0}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(IF(VariableExpression[variableName=v1] != ConstantExpression[value=0]) THEN(print(MUL(VariableExpression[variableName=v1],VariableExpression[variableName=v2]))) ELSE(print(VariableExpression[variableName=v1])))]
+Symbol Table: {v1=2, v2=3}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [(IF(VariableExpression[variableName=v1] != ConstantExpression[value=0]) THEN(print(MUL(VariableExpression[variableName=v1],VariableExpression[variableName=v2]))) ELSE(print(VariableExpression[variableName=v1])))]
+Symbol Table: {v1=2, v2=3}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(MUL(VariableExpression[variableName=v1],VariableExpression[variableName=v2]))]
+Symbol Table: {v1=2, v2=3}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: [print(MUL(VariableExpression[variableName=v1],VariableExpression[variableName=v2]))]
+Symbol Table: {v1=2, v2=3}
+Heap: {}
+Output: []
+FileTable: []
+----------------------
+
+
+--- PROGRAM STATE 11---
+Execution Stack: []
+Symbol Table: {v1=2, v2=3}
+Heap: {}
+Output: [1]
+FileTable: []
+----------------------
+

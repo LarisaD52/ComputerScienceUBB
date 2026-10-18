@@ -30,8 +30,8 @@ Each place contains the following information:
 | Budget | The estimated cost of the trip, in euro. It must be 0 or more. |
 | Status | Idea, Upcoming or Visited. |
 | Trip Date | When the trip takes place or took place. It is optional for ideas. |
-| Outbound Flight | A checkbox that is checked if the user has a flight to the place. |
-| Return Flight | A checkbox that is checked if the user has a flight back home. |
+| Flight There | Optional checkbox, checked if the user has a flight to the place. |
+| Flight Back | Optional checkbox, checked if the user has a flight back home. |
 | Rating | A grade from 1 to 5. Only used for visited places. |
 | Things to Do | Optional list of activities the user wants to do there, one per line. |
 | Photo | An optional picture of the place, chosen from the phone gallery. |
@@ -58,7 +58,7 @@ Users can choose from the following types:
 
 The user can add a new place by pressing the **+** button on the main screen.
 
-The user enters the name and the location, selects the type, the best season and the status, and can add the budget, the trip date, a photo and the things to do, and can check if they have an outbound flight and/or a return flight.
+The user enters the name and the location, selects the type, the best season and the status, and can add the budget, the trip date, a photo and the things to do, and can optionally check "Flight there" and/or "Flight back".
 
 After selecting **Add Place**, the new place is added to the list.
 

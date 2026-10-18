@@ -30,9 +30,8 @@ Each place contains the following information:
 | Budget | The estimated cost of the trip, in euro. It must be 0 or more. |
 | Status | Idea, Upcoming or Visited. |
 | Trip Date | When the trip takes place or took place. It is optional for ideas. |
-| Flight | Indicates whether the user has a flight for this trip. |
-| Flight Type | Round trip, outbound only or return only. Only used if the user has a flight. |
-| Flight Dates | The date of the outbound flight and/or of the return flight, depending on the flight type. |
+| Outbound Flight | A checkbox that is checked if the user has a flight to the place. |
+| Return Flight | A checkbox that is checked if the user has a flight back home. |
 | Rating | A grade from 1 to 5. Only used for visited places. |
 | Things to Do | Optional list of activities the user wants to do there, one per line. |
 | Photo | An optional picture of the place, chosen from the phone gallery. |
@@ -59,7 +58,7 @@ Users can choose from the following types:
 
 The user can add a new place by pressing the **+** button on the main screen.
 
-The user enters the name and the location, selects the type, the best season and the status, and can add the budget, the trip date, the flight details, a photo and the things to do.
+The user enters the name and the location, selects the type, the best season and the status, and can add the budget, the trip date, a photo and the things to do, and can check if they have an outbound flight and/or a return flight.
 
 After selecting **Add Place**, the new place is added to the list.
 
@@ -71,13 +70,13 @@ The main screen displays the next upcoming trip at the top and the list of all s
 
 The user can see all places or only the ideas, the upcoming trips or the visited places. The list can also be filtered by type.
 
-Each place displays its photo, name, location, type, best season, budget and status. Upcoming trips also show the date and the flight, and visited places show the rating.
+Each place displays its photo, name, location, type, best season, budget and status. Upcoming trips also show the date and if the flights are booked, and visited places show the rating.
 
 ### Update – Edit a Place
 
 The user can edit a place by selecting it from the list.
 
-The application displays the current information, allowing the user to change any detail, for example the status after the trip, the flight or the rating.
+The application displays the current information, allowing the user to change any detail, for example the status after the trip, the flight checkboxes or the rating.
 
 After selecting **Save Changes**, the updated information is displayed in the list.
 
